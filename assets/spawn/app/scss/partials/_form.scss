@@ -1,0 +1,113 @@
+.my_form {
+    position: relative;
+    display: flex;
+    margin: auto;
+    flex-direction: row;
+    width: 60%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    // outline: 2px solid yellow;
+    padding: 2em 0;
+    @include sm {
+        flex-direction: column;
+        padding: 0 0.5em;
+        margin: 0.2em auto;
+        max-width: 300px;
+    }
+}
+
+input[type="email"] {
+    display: block;
+    flex-basis: 50%;
+    height: 2.6rem;
+    padding: .8em;
+    min-width: 300px;
+    text-transform: uppercase;
+    text-align: left;
+    font-family: inherit;
+    font-size: 1rem;
+    color: hsl(350, 15%, 23%);
+}
+
+.form-submit-button {
+    min-width: 300px;
+    padding: 5px 20px 5px 20px;
+    background-color: #000;
+    flex-basis: 50%;
+    color: snow;
+    height: 2.6rem;
+    font-size: 16px;
+    font-family: inherit;
+    font-weight: 900;
+    font-style: normal;
+    line-height: 1.0;
+    letter-spacing: 0;
+    white-space: nowrap;
+    border-radius: 0px;
+    border: none;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.form-submit-button {
+    @include sm {}
+}
+
+.form-submit-button:hover {
+    background-color: #fff;
+    color: black;
+}
+
+.signup-image {
+    display: inline-block;
+    width: 80%;
+    height: auto;
+    margin: auto auto;
+    /* position: relative; */
+    /* top: 50%; */
+}
+
+.flex-form-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.upper-form-wrapper {
+    width: 100%;
+}
+
+.upper-form-wrapper>form>input[type="email"],
+.lower-form-wrapper>form>input[type="email"] {
+    border: 1px solid black;
+}
+
+.lower-form-wrapper {
+    background-color: lightgray;
+    padding: 2em 1em;
+}
+
+.lower-form-wrapper .form-submit-button {
+    text-align: left;
+}
+
+.upper-form-wrapper .form-submit-button {
+    text-align: center;
+    @include lg {
+        text-align: left;
+    }
+    @include md {
+        text-align: left;
+    }
+    @include sm {
+        text-align: left;
+    }
+}
+
+.lower-form-wrapper .my_form .my-checkbox .label-cbx>span {
+    color: black;
+    @include sm {
+        margin-left: 1em;
+        font-size: 0.9rem;
+    }
+}

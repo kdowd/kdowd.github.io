@@ -1,0 +1,25 @@
+@mixin linx ($link, $visit, $hover, $active) {
+    a {
+        color: $link;
+        &:visited {
+            color: $visit;
+        }
+        &:hover {
+            color: $hover;
+        }
+        &:active {
+            color: $active;
+        }
+    }
+}
+
+$a-tags: 'a, a:active, a:hover, a:visited';
+$a-tags-hover: 'a:active, a:hover';
+#{$a-tags} {
+    color: red;
+    text-decoration: none;
+}
+
+#{$a-tags-hover} {
+    color: blue;
+}

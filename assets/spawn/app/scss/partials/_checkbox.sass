@@ -1,0 +1,73 @@
+
+
+
+  
+.label-cbx
+  display: inline-flex
+  user-select: none
+  cursor: pointer
+  margin-bottom: 0
+  
+  flex-direction: row
+  justify-content: flex-start
+  align-items: center
+  input:checked
+    & + .checkbox
+      border-color: hsl(0, 83%, 37%)
+      svg
+        path
+          fill: hsl(0, 83%, 37%)
+        polyline
+          stroke-dashoffset: 0
+  &:hover
+    .checkbox
+      svg
+        path
+          stroke-dashoffset: 0
+
+  .checkbox
+    position: relative
+    top: 2px
+    margin-right: 8px
+    width: 30px
+    height: 30px
+    border: 2px solid #000000
+    border-radius: 3px
+    svg
+      position: absolute
+      top: -2px
+      left: -2px
+      path
+        fill: none
+        stroke: #ffffff
+        stroke-width: 2
+        stroke-linecap: round
+        stroke-linejoin: round
+        stroke-dasharray: 71px
+        stroke-dashoffset: 71px
+        transition: all .6s ease
+      polyline
+        fill: none
+        stroke: #FFF
+        stroke-width: 2
+        stroke-linecap: round
+        stroke-linejoin: round
+        stroke-dasharray: 18px
+        stroke-dashoffset: 18px
+        transition: all .3s ease
+
+  > span
+    font-size: 1.2em
+    display: inline-block
+    padding-top: 0.2em
+    pointer-events: none
+
+.my-checkbox
+  margin-top: 1em
+
+.invisible
+  position: absolute
+  z-index: -1
+  width: 0
+  height: 0
+  opacity: 0

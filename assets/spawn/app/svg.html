@@ -1,0 +1,30 @@
+   <style >
+@keyframes fillup {
+  from { stroke-dasharray: 0 100; }
+}
+
+.pie {
+    background-color: transparent !important;
+}
+.pie > svg {
+
+  width: 200px; 
+  height: 200px;
+  transform: rotate(0deg);
+  background: #fff;
+  border-radius: 50%;
+}
+
+circle {
+  
+  fill: #eee;
+  stroke: #428bca;
+  stroke-width: 18;
+  stroke-dasharray: 0 100; /* for 75% */
+  animation: fillup 3s ease-out forwards;
+}
+</style>
+<div class="pie">
+  <svg viewBox="0 0 32 32"><circle class="circle" r="16" cx="16" cy="16" style="stroke-dasharray: 75, 100;"></circle></svg>
+  75
+</div>

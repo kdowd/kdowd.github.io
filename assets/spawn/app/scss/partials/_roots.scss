@@ -1,0 +1,60 @@
+$breakpoints: ('small': '(min-width: 860px)', 'medium': '(min-width: 1000px)', 'large': '(min-width: 1140px)', );
+$small : "only screen and (max-width : 800px)";
+
+$spawn-teal: #1cb099;
+$spawn-white: hsl(0, 0%, 96%);
+$spawn-inverse: #05504b;
+$header-min-height: 100px;
+$body-text-color:  hsl(0, 0%, 26%);
+$body-text-font: "Slabo", serif;
+$body-text-size: 1.6rem;
+$body-text-line-height: 2.6rem;
+$body-text-para-gap: 0.3em;
+
+
+
+// Small tablets and large smartphones (landscape view)
+$screen-sm-min: 576px;
+
+// Small tablets (portrait view)
+$screen-md-min: 768px;
+
+// Tablets and small desktops
+$screen-lg-min: 992px;
+
+// Large tablets and desktops
+$screen-xl-min: 1200px;
+
+
+
+
+$fb-one: #ff00000;
+
+
+
+@mixin sm {
+   @media (max-width: #{$screen-sm-min}) {
+       @content;
+   }
+}
+
+// Medium devices
+@mixin md {
+   @media (max-width: #{$screen-md-min}) {
+       @content;
+   }
+}
+
+// Large devices
+@mixin lg {
+   @media (max-width: #{$screen-lg-min}) {
+       @content;
+   }
+}
+
+// Extra large devices
+@mixin xl {
+   @media (min-width: #{$screen-xl-min}) {
+       @content;
+   }
+}

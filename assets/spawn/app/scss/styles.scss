@@ -1,0 +1,249 @@
+@import "partials/_all";
+html {
+    font-size: 62.5%;
+}
+
+html,
+body {
+    width: 100vw;
+    height: 100%;
+    background-color: whitesmoke;
+    font-family: "Roboto", arial, sans-serif;
+    -webkit-font-variant-ligatures: common-ligatures;
+    font-variant-ligatures: common-ligatures;
+    -webkit-font-smoothing: antialiased;
+    color: snow;
+    font-size: 1rem;
+}
+
+* {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+#override h1 {
+    font-weight: 700;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    line-height: 1;
+}
+
+.center-element {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.sections-wrapper {
+    // need to offest by height of header
+    // outline: 2px solid black;
+    // outline-offset: -12px;
+    background-color: hsl(0, 83%, 37%);
+    padding-top: ($header-min-height/2);
+}
+
+.section-flex-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 0;
+    // here show the headline shows o navigation
+    padding-top: ($header-min-height);
+}
+
+.my-top {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 700;
+    background-color: hsl(0, 83%, 37%);
+    // line-height: 6em;
+    width: 100vw;
+    height: 100vh;
+    // here show the headline shows o navigation
+    // hmmmmm
+    // height: 100% !important;
+    @include md {}
+    @include sm {
+        font-size: 0.6rem;
+    }
+}
+
+.my-second>header {
+    margin-top: -$header-min-height;
+}
+
+.body-text p {
+    font-family: $body-text-font;
+    font-size: $body-text-size;
+    line-height: $body-text-line-height;
+    color: $body-text-color;
+    @include sm {
+        font-size: $body-text-size - 0.5rem;
+        line-height: $body-text-line-height - 0.5rem;
+        width: 100%;
+    }
+}
+
+.body-text p:first-of-type {
+    padding-top: 2em
+}
+
+.body-text p {
+    padding-bottom: $body-text-para-gap;
+    @include sm {
+        padding-bottom: $body-text-para-gap + 0.3em;
+    }
+}
+
+.h1-responsive-massive {
+    font-size: 5em;
+    text-transform: uppercase;
+}
+
+.h1-responsive-massive-extra {
+    font-size: 14vw;
+    text-transform: uppercase;
+    @include xl {
+        font-size: 16vw;
+    }
+    @include lg {
+        font-size: 15vw;
+    }
+    @include sm {
+        font-size: 15vw;
+        padding: 0.3em 0.3em 0.2em
+    }
+}
+
+.creative-highlight {
+    -webkit-clip-path: polygon(45px 0, 100% 20px, 100% 96%, 0 100%);
+    clip-path: polygon(45px 0, 100% 20px, 100% 96%, 0 100%);
+}
+
+.creative-highlight div {
+    display: inline-block;
+    background-color: red;
+    color: white;
+    padding: 1.4em 2em;
+}
+
+.creative-sub-head {
+    padding-top: 1.0em;
+    padding-bottom: 0.6em;
+    width: 80%;
+    @include sm {
+        padding-top: 1.4em;
+        font-size: 1.6em;
+        width: 60%;
+    }
+}
+
+.creative-sub-head h1 {
+    text-align: center;
+    font-size: 1.1em;
+    white-space: nowrap;
+}
+
+.scroll-for-more {
+    position: absolute;
+    left: calc(50% - 1em);
+    bottom: 0;
+    width: 2em;
+    height: auto;
+    font-weight: bolder;
+    @include sm {
+        // display: none;
+    }
+    @media (max-height: 850px) {
+        display: none;
+    }
+}
+
+.scroll-for-more>div {
+    transform: translateX(-100%);
+}
+
+.scroll-for-more>div>span {
+    color: hsl(0, 0%, 0%);
+    display: block;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.h1-responsive-large {
+    font-size: 4em;
+}
+
+.my-second,
+.my-third,
+.my-fourth,
+.my-fifth {
+    background-color: whitesmoke;
+    width: 100vw;
+    min-height: 100vh;
+    overflow: hidden;
+    // padding-bottom: 1em;
+}
+
+.my-second>header,
+.my-third>header,
+.my-fourth>header,
+.my-fifth>header {
+    width: 100%;
+    padding: 1em 1em;
+    font-size: 2.4rem;
+    align-self: flex-start;
+    background-color: hsl(0, 0%, 0%);
+    color: hsl(0, 100%, 99%);
+}
+
+aside {
+    float: right;
+    @include sm {
+        font-size: 0.5em;
+    }
+}
+
+.my-second .column,
+.my-third .column,
+.my-fourth .column,
+.my-fifth .column {
+    padding: 1em 3em;
+}
+
+blockquote {
+    margin: auto;
+    padding: 0.5em 10px;
+    text-align: right;
+    width: 60%;
+    @include sm {
+        font-size: 0.5em;
+        width: 100%;
+    }
+}
+
+blockquote:before {
+    content: "\201C";
+    // content: open-quote;
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
+}
+
+blockquote:after {
+    content: "\201D";
+    // content: close-quote;
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-left: 0.25em;
+    vertical-align: -0.5em;
+}
+
+blockquote p {
+    display: inline;
+}
+
+.contacts-table {
+    background-color: red;
+}

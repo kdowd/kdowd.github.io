@@ -1,0 +1,64 @@
+
+
+.header-main {
+    position: fixed;
+    display: flex;
+    z-index: 100;
+    width: 100vw;
+     
+    min-height: $header-min-height;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: inherit;
+}
+
+.header-main:before {
+    background-color: inherit;
+    bottom: -20px;
+    content: '';
+    display: block;
+    color: inherit;
+    height: 40%;
+    left: 0;
+    position: absolute;
+    right: 0;
+    transform: skewY(1deg);
+    transform-origin: 100%;
+    z-index: -1; // background-color: rgba(0, 0, 0, 0.2)
+}
+
+
+
+.nav-item {
+    margin: 1em;
+    padding: 0.2em 0.4em;
+}
+
+a.navbar-item:hover, a.navbar-item.is-active, .navbar-link:hover, .navbar-link.is-active {
+    background-color: transparent;
+    color: black;
+}
+
+a:hover:after {
+    width: 100% !important;
+    left: 0;
+}
+
+a:not(.navbar-burger):not(.button):after {
+    background: none repeat scroll 0 0 hsla(0, 0%, 0%, 0);
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 3px;
+    left: 0%;
+    position: absolute;
+    background: black;
+    -webkit-transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    -o-transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+
+
+
