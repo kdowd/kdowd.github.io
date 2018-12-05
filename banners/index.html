@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="./css/reset.css" rel="stylesheet">
+    <style>
+        .message {
+            font-family: monospace;
+            font-size: 1.4rem;
+        }
+        
+        .banner-choice {
+            width: 100%;
+            height: 100vh;
+            min-height: 300px;
+            background-color: hsl(0, 0%, 96%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            padding-top: 1%;
+        }
+        
+        .banner-choice>img {
+            flex-basis: 100%
+        }
+        
+        .mrec {
+            min-height: 300px;
+        }
+        
+        .halfpage {
+            min-height: 600px;
+        }
+        
+        .section-white {
+            background-color: white;
+        }
+        
+        header {
+            background-color: hsl(0, 0%, 0%);
+            height: 4em;
+            font-family: monospace;
+            color: hsl(0, 100%, 99%);
+            font-size: 1.6rem;
+            line-height: 4rem;
+            text-indent: 1rem;
+        }
+        
+        @media screen and (max-height: 800px) {
+            .banner-choice>img,
+            .message {
+                display: none;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>Banner selection by endif creative</header>
+    <section class="banner-choice halfpage">
+        <div>
+            <iframe src="./svg/build/halfpage/index.html" seamless frameborder="0" scrolling="no" width="300" height="600"></iframe>
+        </div>
+        <img src="assets/scroll.svg" width="80" height="80" title="scroll for more" alt="scroll for more">
+        <span class="message">Scroll for more..</span>
+    </section>
+
+    <section class="banner-choice halfpage section-white">
+        <div>
+            <iframe src="http://advertising.mediaworks.co.nz/kjd/tilespace/" seamless frameborder="0" scrolling="no" width="300" height="600"></iframe>
+        </div>
+        <img src="assets/scroll.svg" width="80" height="80" alt="scroll for more">
+    </section>
+
+
+
+    <section class="banner-choice mrec">
+        <div>
+            <iframe src="./cube/index.html" seamless frameborder="0" scrolling="no" width="300" height="300"></iframe>
+        </div>
+        <img src="assets/scroll.svg" width="80" height="80" alt="scroll for more">
+    </section>
+
+    <section class="banner-choice halfpage section-white">
+        <div>
+            <iframe src="http://advertising.mediaworks.co.nz/kjd/cube/gjgardner/superisland/" seamless frameborder="0" scrolling="no" width="300" height="600"></iframe>
+        </div>
+        <img src="assets/scroll.svg" width="80" height="80" alt="scroll for more">
+    </section>
+
+    <section class="banner-choice halfpage">
+        <div>
+            <iframe src="./intermedia/index.html" seamless frameborder="0" scrolling="no" width="300" height="600"></iframe>
+        </div>
+        <img src="assets/scroll.svg" width="80" height="80" alt="scroll for more">
+    </section>
+    <section class="banner-choice halfpage">
+        <div>
+            <iframe src="./mother_earth/index.html" seamless frameborder="0" scrolling="no" width="600" height="600"></iframe>
+        </div>
+
+    </section>
+
+
+</body>
+
+</html>
