@@ -1,0 +1,21 @@
+body {
+    background-color: transparent !important;
+    /*    display: flex;
+    justify-content: center;*/
+}
+
+
+#expanded-page {
+border: none;
+}
+
+#banner-page {
+}
+
+#banner-page {
+    background-color: white !important;
+}
+
+#close-image {
+    cursor: pointer;
+}
