@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Chartwell Shopping Centre </title>
+
+	<link rel="stylesheet" href="./bootstrap/3.3.6/css/bootstrap.min.css" type="text/css" media="screen,projection" />
+	<link rel="stylesheet" href="./css/whatson-story.css" type="text/css" media="screen,projection" />
+
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<script src="./js/jquery-2.2.2.min.js"></script>
+	<script src="./bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+
+
+	<script>
+		(function consolefix() {
+			//early ie fix
+			try {
+				console // is it there?
+			} catch (e) {
+				console = {};
+				console.log = function () {};
+			}
+		})();
+
+		document.addEventListener('DOMContentLoaded', function (e) {
+			$("#btn-contact").click(function (e) {
+				window.location = "./contact.html";
+				e.preventDefault();
+			});
+
+
+
+		});
+	</script>
+
+	<style>
+		.row-eq-height {
+			display: -webkit-box;
+			display: -webkit-flex;
+			display: -ms-flexbox;
+			display: flex;
+		}
+	</style>
+
+
+</head>
+
+<body>
+	<div id="main-content" class="contact">
+		<!-- Navigation -->
+		<nav class="navbar navbar-default" role="navigation" style="background-color:transparent; border:none">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#responsive-navbar">
+					<span class="sr-only">Toggle navigation</span>
+					<div class="icon-bar-strategy"></div>
+					<div class="icon-bar-strategy"></div>
+					<div class="icon-bar-strategy"></div>
+				</button>
+				<a class="navbar-brand" href="./index.html">
+					<div class="hidden-lg">
+						<img class="img-responsive" src="./images/home/chartwell_logo.png" width="170px" height="auto" border="0" alt="Chartwell">
+					</div>
+					<div class="hidden-xs hidden-sm hidden-md">
+						<img class="img-responsive" src="./images/home/chartwell_shopping_centre_logo.svg" width="360px" height="auto" border="0" alt="Chartwell">
+					</div>
+				</a>
+			</div>
+			<!--			end nav-bar header-->
+			<div class="collapse navbar-collapse" id="responsive-navbar">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a id="nav-stores" class="navlink one-pixel-link" href="./stores.html">STORES</a></li>
+					<li><a id="nav-whatson" class="navlink one-pixel-link" href="./whatson.html">WHAT'S ON</a></li>
+					<li><a id="nav-info" class="navlink one-pixel-link" href="./centerinfo.html">CENTRE INFO</a></li>
+					<li><a id="nav-giftcards" class="navlink one-pixel-link" href="./giftcards.html">GIFTCARDS</a></li>
+					<li><a id="nav-movies" class="navlink one-pixel-link" href="https://www.eventcinemas.co.nz/" target="_blank">MOVIES <span class="glyphicon glyphicon-new-window"></span></a></li>
+					<li><a id="nav-contact" class="navlink one-pixel-link" href="./contact.html">CONTACT</a></li>
+				</ul>
+			</div>
+		</nav>
+
+		<div class="flexify-as-row">
+			<div>
+				<p class="section-headline">What's on
+					<br />at Chartwell</p>
+			</div>
+		</div>
+		<div class="clearfix"></div>
+
+		<!--https://damienfremont.com/2014/12/19/how-to-expandcollapse-table-rows-with-bootstrap/-->
+		<!--		http://jsfiddle.net/7pwg1j5f/-->
+		<div id="container-wrapper-main">
+
+			<div class="container">
+				<div class="row row-eq-height">
+					<div class="col-sm-1 border-force">
+						<!--
+					transform-origin: 100% 40%;
+-ms-transform-origin: 100% 40%; /* IE 9 */
+-webkit-transform-origin: 100% 40%; /* Safari and Chrome */
+-moz-transform-origin: 100% 40%; /* Firefox */
+-o-transform-origin: 100% 40%; /* Opera */
+-->
+						<div style="-webkit-transform-origin: 50% 50%; transform-origin: 50% 50%; transform: rotate(90deg); align-self:center;">qwerty</div>
+
+					</div>
+
+					<!--	<div class="col-sm-10 col-sm-push-1">-->
+					<div class="col-sm-10">
+						<img class="center-block img-responsive" src="./images/whatson/sanfran-800.jpg" width="600" height="600" border="0" alt="piggy">
+						<div class="center-block" style="text-align:center;"><span>01-06-16</span></div>
+					</div>
+
+					<div class="col-sm-1">
+						qwerty
+					</div>
+
+
+				</div>
+				<div class="row ">
+					<div class="col-sm-12">
+						<div class="col-sm-12">
+							<div class="center-block" style="text-align:center;"><span>New stores at Chartwell</span></div>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="row">
+					<div class="col-sm-6">
+						<div class="whatson-story-left-text-block">
+							<p>We've just opened our doors with a whole new look. We've had an update at Chartwell, but it's the same stores you know and have come to love, and much more!</p>
+						</div>
+					</div>
+					<div class="col-sm-6">
+						<div class="whatson-story-right-text-block">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque posuere magna nec lacus tristique condimentum non sit amet enim. Sed et nunc viverra, accumsan quam sed, varius velit. Donec posuere consectetur sagittis. Proin id hendrerit tellus. Etiam ullamcorper sem et mi porttitor tristique. Fusce dignissim ornare libero non sodales. Proin felis risus, blandit vel felis non, tempor iaculis nisi. Pellentesque et fringilla ipsum. Quisque turpis enim, condimentum non ex vel, sodales varius arcu. Duis mi neque, porta non diam in, sagittis fermentum sapien. Proin sed enim blandit, pharetra nisl nec, fermentum est. Curabitur eget ligula at leo laoreet iaculis. Praesent venenatis sollicitudin laoreet. Mauris et enim vitae lorem vehicula dignissim.
+						</div>
+					</div>
+
+				</div>
+
+				<div class="row">
+					<div class="col-sm-12">
+						<div class="whatson-back-nav-button">
+							<a href="./whatson.html" target="_self">
+								<span>BACK</span>
+							</a>
+						</div>
+					</div>
+				</div>
+
+
+				<!--		end container-fluid-->
+			</div>
+		</div>
+		<!--		end container-wrapper div -->
+	</div>
+	<!--	end main-content-->
+
+	<div class="strip-home"></div>
+
+
+	<div class="container-fluid">
+		<div class="row">
+
+			<div class="col-sm-12">
+
+				<div class="footer-flex-desktop">
+					<div class="footer-social-icons">
+						<img src="images/shared/instagram_icon.png" width="36" border="0" alt="chartwell-footer">
+						<img src="images/shared/facebook_icon.png" width="36" border="0" alt="chartwell-footer">
+					</div>
+
+					<div class="footer-nav">
+						<ul>
+							<li><a class="one-pixel-link" href="./contact.html">CONTACT US</a></li>
+							<li><a class="one-pixel-link" href="http://www.strideproperty.co.nz/" target="_blank">STRIDE PROPERTY LTD</a></li>
+							<li><a class="one-pixel-link" href="./privacy.html">PRIVACY POLICY</a></li>
+							<li><a class="one-pixel-link" href="./terms.html">TERMS + CONDITIONS</a></li>
+						</ul>
+					</div>
+
+					<div class="footer-logo">
+						<a href="./index.html" target="_self">
+							<img src="images/shared/chartwell_logo_bw.png" width="140" height="24" border="0" alt="chartwell-footer">
+						</a>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+</body>
+
+</html>

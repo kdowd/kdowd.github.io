@@ -1,0 +1,579 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ta",
+				"target	centerinfo.html"
+			],
+			[
+				"bo",
+				"box-shadow"
+			],
+			[
+				"ma",
+				"margin-left"
+			],
+			[
+				"th",
+				"thead	<thead>"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"b",
+				"bottom"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"cu",
+				"cursor"
+			],
+			[
+				"margi",
+				"margin-left"
+			],
+			[
+				"backgo",
+				"background-color"
+			],
+			[
+				"tra",
+				"translateY()"
+			],
+			[
+				"he",
+				"height"
+			],
+			[
+				"paddin",
+				"padding-top"
+			],
+			[
+				"rl",
+				"relative"
+			],
+			[
+				"le",
+				"left"
+			],
+			[
+				"inli",
+				"inline-block"
+			],
+			[
+				"ob",
+				"object-fit"
+			],
+			[
+				"ab",
+				"absolute"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"con",
+				"console"
+			],
+			[
+				"out",
+				"outline"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"background",
+				"background-image"
+			],
+			[
+				"l",
+				"log	console"
+			],
+			[
+				"border-c",
+				"border-color"
+			],
+			[
+				"c",
+				"console.log"
+			],
+			[
+				"exp",
+				"module.exports"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 247.0,
+		"last_filter": "insta",
+		"selected_items":
+		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"au",
+				"HTMLBeautify"
+			],
+			[
+				"scss",
+				"Browser Integration: Select elements by CSS"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Project: Add Folder"
+			],
+			[
+				"p",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 467.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"pwd",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/kevindowd/Library/Application Support/Sublime Text 3/Packages/User/HTMLBeautify.sublime-settings",
+		"/Users/kevindowd/strategy/chartwell/src/layout.html",
+		"/Users/kevindowd/strategy/chartwell/src/whatson.html",
+		"/Users/kevindowd/strategy/chartwell/src/scss/_accordion.scss",
+		"/Users/kevindowd/strategy/chartwell/src/giftcards.html",
+		"/Users/kevindowd/strategy/queensgate/src copy/whatson.html",
+		"/Users/kevindowd/strategy/queensgate/src copy/whatson-story-3.html",
+		"/Users/kevindowd/strategy/queensgate/src copy/terms.html",
+		"/Users/kevindowd/strategy/queensgate/src copy/stores.html",
+		"/Users/kevindowd/strategy/queensgate/src copy/privacy.html",
+		"/Users/kevindowd/strategy/queensgate/src copy/layout.html",
+		"/Users/kevindowd/strategy/queensgate/src copy/giftcards.html",
+		"/Users/kevindowd/strategy/queensgate/src copy/contact.html",
+		"/Users/kevindowd/strategy/queensgate/src copy/centerinfo.html",
+		"/Users/kevindowd/strategy/queensgate/src/scss/_single-line-rules.scss",
+		"/Users/kevindowd/strategy/chartwell/src/scss/_single-line-rules.scss",
+		"/Volumes/Strategy/STR_Stride/Active Jobs/STR765_QG:CW Website/04 Working/05 Assets/01 Chartwell /03 Stores/02 Stores HTML/C.html",
+		"/Users/kevindowd/strategy/chartwell/src/contact.html",
+		"/Users/kevindowd/strategy/src-update/stores.html",
+		"/Users/kevindowd/strategy/src/stores.html",
+		"/Users/kevindowd/strategy/src/terms.html",
+		"/Users/kevindowd/strategy/src/index.html",
+		"/Users/kevindowd/strategy/index.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/kjd/phpinfo.php",
+		"/Applications/MAMP/htdocs/ss_environment.php",
+		"/Users/kevindowd/studioAlexander/mobileFirst/build/js/require/require.comments.js",
+		"/Users/kevindowd/Desktop/quake.js",
+		"/Users/kevindowd/studioAlexander/mobileFirst/index.html",
+		"/Users/kevindowd/studioAlexander/build/svg/auranga_universal3.svg",
+		"/Users/kevindowd/github-gh_pages/pages/studioalexander/build/index.html",
+		"/Users/kevindowd/github-gh_pages/pages/studioalexander/build/css/main.css",
+		"/Users/kevindowd/studioAlexander/build/svg/auranga_overview_map_only_paths2.svg",
+		"/Users/kevindowd/99_Raydar/300x600/brand/publish/index.html",
+		"/Users/kevindowd/99_Raydar/300x250/brand/publish/index.html",
+		"/Users/kevindowd/99_Raydar/300x250/brand/publish/createjs_local.js",
+		"/Users/kevindowd/99_Raydar/728x90/brand/publish/index.html",
+		"/Users/kevindowd/99_Raydar/300x250/discount/publish/index.html",
+		"/Users/kevindowd/adobeAnimate/publish/first.html",
+		"/Users/kevindowd/99_Raydar/300x250/brand/publish/ziera_brand_300x250.html",
+		"/Users/kevindowd/github-gh_pages/pages/index.html",
+		"/Users/kevindowd/gfab/build/index.html",
+		"/Users/kevindowd/github-gh_pages/pages/sunshineCoastFlightBooker/mobile_nojquery/index.html",
+		"/Users/kevindowd/www/MEDIAWORKS/apn/buildWeb/publish/weatherfeed.js",
+		"/Users/kevindowd/www/MEDIAWORKS/apn/buildWeb/publish/dev.html",
+		"/Users/kevindowd/createJSGame/jungleBookCreateRequire/fontload.js",
+		"/Users/kevindowd/createJSGame/jungleBookCreateRequire/keydown.js",
+		"/Users/kevindowd/gfab/gfab.co.nz/index.html",
+		"/Users/kevindowd/createJSGame/JungleBookJavascript/publish/jbook.js",
+		"/Users/kevindowd/createJSGame/fromcreatejs/AdobeAnimateDemo/TrashDash/js/Rnd.js",
+		"/Users/kevindowd/github-gh_pages/pages/newWorldBuild/css/spinner.css",
+		"/Users/kevindowd/github-gh_pages/pages/newWorldBuild/css/crazyshit.css",
+		"/Users/kevindowd/reactStudy/ReactVidPlayers/React-Video-Player/dist/css/video.css",
+		"/Users/kevindowd/github-gh_pages/pages/newWorldBuild/jsx/components/fullscreenbutton.js",
+		"/Users/kevindowd/github-gh_pages/pages/newWorldBuild/jsx/app.js",
+		"/Users/kevindowd/github-gh_pages/pages/newWorldBuild/jsx/components/videoplayer.js",
+		"/Users/kevindowd/www/ADSHEL/build/publish/feededited.js",
+		"/Users/kevindowd/www/ADSHEL/build/src/com/adobe/serialization/json/JSON.as",
+		"/Users/kevindowd/github-gh_pages/pages/css/eg.css",
+		"/Users/kevindowd/github-gh_pages/pages/newWorldBuild/jsx/components/replay.js",
+		"/Users/kevindowd/github-gh_pages/pages/newWorldBuild/jsx/components/progressbar.js",
+		"/Users/kevindowd/github-gh_pages/pages/newWorldBuild/jsx/components/playpause.js",
+		"/Users/kevindowd/github-gh_pages/pages/newWorldBuild/jsx/components/tiles.js",
+		"/Users/kevindowd/github-gh_pages/pages/newWorldBuild/jsx/components/volumebutton.js",
+		"/Users/kevindowd/reactStudy/React-Video-Player/index.html",
+		"/Users/kevindowd/reactStudy/React-Video-Player/src/jsx/react-video.js",
+		"/Users/kevindowd/www/ADSHEL/build/src/com/adobe/serialization/json/JSONTokenizer.as",
+		"/Users/kevindowd/reactStudy/ReactVidPlayers/React-Video-Player/src/jsx/react-video.js",
+		"/Users/kevindowd/github-gh_pages/pages/newWorldBuild/css/crazyshit.html",
+		"/Users/kevindowd/github-gh_pages/pages/voodooguide/css/default.css",
+		"/Users/kevindowd/github-gh_pages/pages/voodooguide/index.html",
+		"/Users/kevindowd/reactStudy/react-0.14.7/examples/basic-jsx-precompile/index.html",
+		"/Users/kevindowd/reactStudy/react-0.14.7/examples/basic-jsx-precompile/example.js",
+		"/Users/kevindowd/reactStudy/react-0.14.7/examples/basic-jsx-precompile/build/example.js",
+		"/Users/kevindowd/reactStudy/quiz/index.html",
+		"/Users/kevindowd/reactStudy/material-ui/package.json",
+		"/Users/kevindowd/reactStudy/quiz/js/babel-core.min.js",
+		"/Users/kevindowd/www/santander_bootstrap/js/jquery-2.2.0.min.js",
+		"/Users/kevindowd/airNZ/46182061 - Air NZ Plan 1964/desktop/adcode.html",
+		"/Users/kevindowd/Documents/deviceScreens.json",
+		"/Users/kevindowd/www/toughMudder_AirNZ/css/jquery-ui.css",
+		"/Users/kevindowd/githubPages/pages/countdown/alwayson/index.html",
+		"/Users/kevindowd/githubPages/pages/countdown/alwayson/js/app/view/arrows.js",
+		"/Users/kevindowd/githubPages/pages/countdown/alwayson/js/app/view/carousel.js",
+		"/Users/kevindowd/Documents/www/2012/virginStrap/flashDev/source/com/virgin/visuals/FindFlight.as",
+		"/Users/kevindowd/Documents/www/2015/Mobile/43531061 - Pinnacle/pinnacleparent.html",
+		"/Users/kevindowd/www/alwayson/assets/voodoo.xml",
+		"/Users/kevindowd/githubPages/pages/index.html",
+		"/Users/kevindowd/www/alwayson/assets/voodoox.xml",
+		"/Users/kevindowd/www/countdown/alwaysOnTablet/vooodoo.html",
+		"/Users/kevindowd/www/countdown/alwaysOnDesktop/assets/voodoo.xml",
+		"/Users/kevindowd/Documents/www/2015/dev/countdown/alwaysOnDesktop/js/view/CarouselView.js",
+		"/Users/kevindowd/Desktop/untitled.js",
+		"/Users/kevindowd/www/countdown/alwaysOnTablet/assets/voodoo.xml",
+		"/Users/kevindowd/www/countdown/alwaysOnTablet/css/style.css",
+		"/Users/kevindowd/Documents/MyGitProject/main/README.md",
+		"/Volumes/My Passport/imageLoad/imageListeners.html",
+		"/Users/kevindowd/Library/Application Support/Sublime Text 3/Packages/Cheat Sheets/cheat-sheets/Git.cheatsheet",
+		"/Users/kevindowd/frontend_node/helloWorld/helloworld.js",
+		"/Volumes/My Passport/141215/www/2015/utils.js",
+		"/Users/kevindowd/frontend_node/helloWorld/generics.js",
+		"/Users/kevindowd/Desktop/TateBritain/V2/tateBritain14_languages_Master/map.xml",
+		"/Users/kevindowd/Desktop/TateBritain/V2/tateBritain14_languages_Master/tourConfig.xml",
+		"/Users/kevindowd/Desktop/oldMacintosh/Documents/USSD_Universal/bin-debug/xml/customer_withdrawal.xml",
+		"/Applications/ApacheFlex/ide/flashbuilder/makeApacheFlexForIDE.bat",
+		"/Applications/ApacheFlex/apache-flex-sdk-installer-config.xml",
+		"/Users/kevindowd/Downloads/relay-0.3.1/src/RelayPublic.js",
+		"/Users/kevindowd/Downloads/video-js/video.js",
+		"/Users/kevindowd/Downloads/video-js/video-js.min.css",
+		"/Users/kevindowd/Desktop/swiffy/runtime.js",
+		"/Users/kevindowd/Desktop/swiffy/90a583ca-6e66-49b5-be2c-7514e2da7822.html",
+		"/Users/kevindowd/Downloads/ListTutorialPart3-2/src/com/sonyericsson/tutorial/list3/MyListView.java",
+		"/Users/kevindowd/Downloads/CiclopeJS/MediaSprite.js",
+		"/Users/kevindowd/Desktop/bbc_fixed_ad.html",
+		"/Applications/Sublime Text.app/Contents/MacOS/changelog.txt",
+		"/Users/kevindowd/Desktop/senchaBuilds/first/assets/arm.svg",
+		"/Users/kevindowd/Library/Application Support/Sublime Text 3/Packages/Cheat Sheets/cheat-sheets/Github Flavored Markdown.cheatsheet",
+		"/Users/kevindowd/Library/Application Support/Sublime Text 3/Packages/Cheat Sheets/cheat-sheets/Sublime Text.cheatsheet",
+		"/Users/kevindowd/Library/Application Support/Sublime Text 3/Packages/Cheat Sheets/cheat-sheets/Regular Expressions.cheatsheet",
+		"/Applications/XAMPP/xamppfiles/htdocs/applications.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/index.php"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"FFMarkWebProBold",
+			"home-stories-text",
+			"resizeToSmall",
+			"FFMarkWebProBold",
+			"btn-contact",
+			"FFMarkWebPro",
+			"FFMarkWebProBold",
+			"FFMarkWebPro",
+			"object",
+			".flexify-as-row {\n	margin-top: 4rem;\n	margin-bottom: 3rem;\n}",
+			"CHARTWELL",
+			"Chartwell",
+			"chartwell",
+			"footer-fluid",
+			"love",
+			"home-stories-text",
+			"FFMarkWebProBold",
+			"touch",
+			"home-stories-text",
+			"location-text",
+			"font-family:",
+			"@include FFMarkWebProBold",
+			"as-row",
+			"flexify-as-row ",
+			"	<div class=\"strip-home-qg\"></div>\n\n\n	<div class=\"container-fluid\">\n		<div class=\"row\">\n",
+			"<div class=\"strip-home\"></div>",
+			"<img class=\"img-responsive\" src=\"images/shared/queensgate_logo_bw.svg\" width=\"186\" height=\"auto\" border=\"0\" alt=\"queensgate-footer\"></a>",
+			"footer-flex-desktop",
+			"<div class=\"strip-home \"></div>",
+			"table-body-text",
+			"FFMarkWebPro",
+			"FFMarkWebProBold",
+			"hiddenRow",
+			"setLinkSelectorStyle",
+			".hiddenRow",
+			"hiddenRow",
+			"chartwell",
+			"Chartwell",
+			"chartwell",
+			"pull",
+			"base-colour-main-content",
+			"base-colour-header",
+			"icon-info-text-colour",
+			"padding-for-bottom",
+			"Chartwell",
+			"FFMarkWebPro",
+			"FFMarkWebProBold",
+			"Chartwell",
+			"<a href=\"./index.html\" target=\"_self\">\n<img class=\"img-responsive\" src=\"images/shared/queensgate_logo_bw.svg\" width=\"186\" height=\"auto\" border=\"0\" alt=\"queensgate-footer\"></a>\n					</div>\n",
+			"<img class=\"img-responsive\" src=\"images/shared/queensgate_logo_bw.svg\" width=\"186\" height=\"auto\" border=\"0\" alt=\"queensgate-footer\">",
+			"<img class=\"img-responsive\" src=\"images/shared/queensgate_logo_bw.svg\" width=\"186\" height=\"auto\" border=\"0\" alt=\"queensgate-footer\"></a>",
+			"id=\"nav-movies\" class=\"navlink one-pixel-link\"",
+			"Chartwell",
+			"directory_icon",
+			"cw_",
+			"chartwell",
+			"Nando",
+			"\n											<tr class=\"st",
+			"<tr class=\"store-section-letter\">",
+			"3126B0_0_0.eot",
+			"3126B0_0_0",
+			"6pm",
+			";9pm",
+			"999",
+			"/src",
+			"jQuery",
+			"jquery",
+			"jQuery",
+			"jquery",
+			"slice",
+			"$",
+			"./fonts",
+			"svgObject",
+			".svg",
+			"iconList",
+			"iconContainer",
+			"iconContainerClick",
+			"initializeIconView",
+			"hideIcons",
+			"showZoomedView",
+			"1425",
+			"1726",
+			"884",
+			"green",
+			"st97",
+			"auranga_1_",
+			"airportSelectBox",
+			"spinner",
+			"yahooquizshane257",
+			".jpg",
+			"loadSpringrollJSON",
+			"springroll",
+			"Springroll",
+			"springroll",
+			"loadSpringrollJSON",
+			"compboard_mc",
+			"hero",
+			"<svg",
+			"<script src=\"js/TweenMax.min.js\"></script>",
+			"tween",
+			"shape",
+			".svg",
+			"Countdown_HP_Module_2012",
+			"onVideoUpdate",
+			"Volume",
+			"volume",
+			"Volume",
+			"volume",
+			"Volume",
+			"volume",
+			"log",
+			"this.state.playing",
+			"divStyle",
+			"video_controls",
+			"url",
+			"seekVideo",
+			"vidPlayerPointer",
+			"ppPointer",
+			"volPointer",
+			"<script src=\"pub/components/volumebutton.js\"></script>\n",
+			"VideoVolumeButton",
+			"VideoPlaybackToggleButton",
+			"togglePlayback",
+			"handleTogglePlayback",
+			"VideoPlaybackToggleButton",
+			"updateProgressBar",
+			"}\n",
+			"updateProgressBar"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"	<div class=\"strip-home-qg\"></div>\n\n\n	<div class=\"container-fluid footer-fluid\">\n		<div class=\"row\">\n",
+			"<div class=\"strip-home-qg\"></div>",
+			"<img class=\"img-responsive\" src=\"images/shared/queensgate_logo.svg\" width=\"186\" height=\"auto\" border=\"0\" alt=\"queensgate-footer\"></a>",
+			"<img class=\"img-responsive\" src=\"images/shared/queensgate_logo_bw.svg\" width=\"186\" height=\"auto\" border=\"0\" alt=\"queensgate-footer\"></a>",
+			"<div class=\"strip-home-qg\"></div>",
+			"queensgate",
+			"Queensgate",
+			"<div class=\"row\">\n					<div class=\"col-sm-12\">\n						<!-- start accordion -->\n						<div class=\"services-container\">\n\n							<!--	<table id=\"tableSearchResults\" class=\"table table-hover  table-striped table-condensed\">-->\n							<table id=\"tableSearchResults\" class=\"table table-responsive\">\n								<thead>\n									<tr>\n										<th></th>\n										<th></th>\n									</tr>\n								</thead>\n								<tbody>\n									<!--start row 1-->\n									<tr id=\"package1\" class=\"accordion-toggle\" data-toggle=\"collapse\" data-parent=\"#services-container\" data-target=\".packageDetails1\">\n										<td>How to get here</td>\n\n										<td>\n											<i class=\"indicator glyphicon glyphicon-menu-down pull-right\"></i>\n										</td>\n									</tr>\n									<!--end show lable-->\n\n									<tr>\n										<td colspan=\"2\" class=\"hiddenRow\">\n											<div class=\"accordion-body collapse packageDetails1\" id=\"accordion1\">\n\n												<div class=\"acc-body-text\">We are located at 201 Hukanui Road, Hamilton.</div>\n												<div class=\"acc-headline\">Travelling by Car</div>\n												<div class=\"acc-body-text\">\n													<p><span class=\"body-italics\">If you are coming from the North</span>, drive down State Highway 1 towards Hamilton until you reach the first roundabout, you will see Burger King opposite on the right. Turn left onto Wairere Drive and continue down to the fourth roundabout. At this roundabout turn right onto Hukanui Road. You will find us 1km down Hukanui Road. We have heaps of parking.</p>\n													<p><span class=\"body-italics\">If you are coming from the South</span>, drive down State Highway 1 until you reach the first roundabout and turn left onto Cobham Drive. Continue along Cobham Drive until you reach Galloway Street on your right. Turn right onto Galloway and stay on this road, it will turn into Peachgrove Road and then Hukanui Road. You will find us 6km up this road on your left. We have heaps of parking.</p>\n												</div>\n												<div class=\"acc-headline\">Public Transport</div>\n												<div class=\"acc-body-text\">\n													<p>We are lucky to have an excellent bus service to and from the <span class=\"body-italics\">City Transport Centre</span> in Ward Street, Hamilton. This service is run by the Waikato Regional Council. The routes servicing Chartwell are the 4, 5, 16, 14, RDW as well as the Orbiter. For more information and timetables call Busline on (07) 856 4579 or visit <a href=\"http://www.busit.co.nz/\" target=\"_blank\">busit.co.nz.</a></p>\n												</div>\n												<div class=\"acc-headline\">Taxi</div>\n												<div class=\"acc-body-text\">Taxis are available for travel to and from Chartwell. Call <span class=\"body-italics\">Hamilton Taxi Society</span> on 0800 477 477\n												</div>\n											</div>\n										</td>\n									</tr>\n									<!--end hidden row-->\n									<!--end row 1-->\n									<!--start row 2-->\n									<tr id=\"package2\" class=\"accordion-toggle\" data-toggle=\"collapse\" data-parent=\"#services-container\" data-target=\".packageDetails2\">\n										<td>Personal sessions</td>\n\n										<td><i class=\"indicator glyphicon glyphicon-menu-down pull-right\"></i>\n\n										</td>\n									</tr>\n									<tr>\n										<td colspan=\"2\" class=\"hiddenRow\">\n											<div class=\"accordion-body collapse packageDetails2\" id=\"accordion2\">\n\n												<div class=\"acc-body-text\">Because we like to look after our customers we have free customer car parking for up to four hours (P240) in the majority of our Centre car parks. There are also one and a half hour (P90) parking zones for those looking to make a more express visit. Look out for the markings to make sure you park in the right space.\n												</div>\n												<div class=\"acc-headline\">Free extended parking</div>\n												<div class=\"acc-body-text\">If you really want to make a day of it and think you will be visiting us for more that 4 hours then please visit the Customer Service Desk on Level 2. The kind staff there will give you an extended parking coupon which will last for the whole day. You will need to display this on your dashboard. Remember, car parks are for the use of Chartwell customers only, so please don't be offended if you are asked to verify that you have been shopping at the Centre.\n												</div>\n												<div class=\"acc-headline\">Parking with prams</div>\n												<div class=\"acc-body-text\">If you are shopping with young children we have designated some specially marked <span class=\"body-italics\">Parents with Prams</span> parking spots located at the entrances of the centre.\n												</div>\n\n												<a href=\"\" class=\"nav-button\" target=\"_blank\">BOOK YOUR SESSION NOW</a>\n\n\n											</div>\n										</td>\n									</tr>\n									<!--end row 2-->\n									<!--start row 3-->\n									<tr id=\"package3\" class=\"accordion-toggle\" data-toggle=\"collapse\" data-parent=\"#services-container\" data-target=\".packageDetails3\">\n										<td>Styling sessions</td>\n										<td><i class=\"indicator glyphicon glyphicon-menu-down pull-right\"></i>\n										</td>\n									</tr>\n									<!--end show lable-->\n									<tr>\n										<td colspan=\"2\" class=\"hiddenRow\">\n											<div class=\"accordion-body collapse packageDetails3\" id=\"accordion3\">\n												<div class=\"acc-body-text\">Do you know what works for your shape, size and colouring? With new collections coming out all the time, knowing what trends to follow can be tricky. But, with the help of one our expert personal stylists you will look and feel great in no time. Sit down with one our stylists and work out the best fit for you. Our experts will guide you on the best colours for your tones, the best shape for you body and the best budget for your wallet!  With their trained style eye and a collection of the latest fashion at their fingertips, they will arm you with all the tools to confidently select next season’s wardrobe. Personal Styling Sessions are available Monday to Sunday during normal shopping hours all year round. Prices start from $230 for two hours.</div>\n												<div class=\"acc-headline\">Group sessions</div>\n												<div class=\"acc-body-text\">\n													<p>It’s time for a girl’s shopping trip! Grab a friend or two and come along to a <span class=\"body-italics\">Group Styling Session</span> with one of our expert stylists. Our Group Styling Sessions are a fun way to shop with friends and designed for groups of two to four people. In just two to three hours our expert stylist will assess your body shape, style, colouring and budget, then take you to the right stores to try on the right pieces. After a session you and your friends will be armed with all the skills to build a perfect wardrobe. Group Styling Sessions are available Monday to Sunday during normal shopping hours all year round.</p>\n													<p>Prices start from $320 for two hours for two people.</p>\n												</div>\n\n												<a href=\"\" class=\"nav-button\" target=\"_blank\">BOOK YOUR SESSION NOW</a>\n											</div>\n										</td>\n									</tr>\n									<!--end row 3-->\n									<!--start row 4-->\n									<tr id=\"package4\" class=\"accordion-toggle\" data-toggle=\"collapse\" data-parent=\"#services-container\" data-target=\".packageDetails4\">\n										<td>Mobility and wheelchair hire</td>\n										<td><i class=\"indicator glyphicon glyphicon-menu-down pull-right\"></i>\n										</td>\n									</tr>\n									<!--end show lable-->\n									<tr>\n										<td colspan=\"2\" class=\"hiddenRow\">\n											<div class=\"accordion-body collapse packageDetails4\" id=\"accordion4\">\n												<div class=\"acc-body-text\">For those customers requiring assistance around our centre we have wheelchairs and mobility scooters available for hire. Just visit the <span class=\"body-italics\">Customer Services Desk</span> on Level 2 for more information. There is no charge for hireage but you will require photo ID and terms and conditions apply.</div>\n											</div>\n										</td>\n									</tr>\n									<!--end row 4-->\n									<!--start row 5-->\n									<tr id=\"package5\" class=\"accordion-toggle\" data-toggle=\"collapse\" data-parent=\"#services-container\" data-target=\".packageDetails5\">\n										<td>Shopping with children</td>\n										<td><i class=\"indicator glyphicon glyphicon-menu-down pull-right\"></i>\n										</td>\n									</tr>\n									<!--end show lable-->\n									<tr>\n										<td colspan=\"2\" class=\"hiddenRow\">\n											<div class=\"accordion-body collapse packageDetails5\" id=\"accordion5\">\n												<div class=\"acc-headline\">Parents room</div>\n												<div class=\"acc-body-text\">Relax in private in our Parents Room, specially designed to make shopping with little ones easier. We have two parent spaces, each equipped with a microwave, bottle warmer, change tables and kids toilets, all in a safe and comfortable environment. Anyone looking after small children is welcome. You will find a Parents Room on Level 2 next to Whitcoulls and one on Level 1 near Rodney Wayne.\n													<p>For more information please see the Customer Service Desk or call us on 07 853 0507.</p>\n												</div>\n												<div class=\"acc-headline\">Kids play area</div>\n												<div class=\"acc-body-text\">\n													<p>Kids love to play and we have the perfect play area for our visitors under 5. If they need some down time from the shops head along to our play area in the foodcourt on Level 2 outside EVENT Cinemas. You must supervise your children as Chartwell Shopping Centre does not provide supervision. To keep our play area safe and clean we ask that kids please remove their shoes and have no food or drink in this area. Chartwell takes no responsibility for any injury from the use of the play area. Any use of this area by children outside of age limit is deemed unauthorised use.</p>\n												</div>\n												<div class=\"acc-headline\">Stroller and Kiddie Kruzer hire</div>\n												<div class=\"acc-body-text\">\n													<p>If you forgot the stroller or someone’s legs are getting too tired, we have some wheels available to hire. You can pick up a stroller from our Customer Service Desk. There is no charge, however photo ID is required and terms and conditions apply.</p>\n													<p>Kiddie Kruzzers are also available for hire from the Customer Service Desk. We have single and double seating models, and trust us, the Kiddie Kruzzer is the coolest way to get around! An hourly charge applies for Kruzzers&mdash;$5 per single, $8 per double&mdash;and photo ID is required.</p>\n												</div>\n											</div>\n										</td>\n									</tr>\n									<!--end row 5-->\n									<!--start row 6-->\n									<tr id=\"package6\" class=\"accordion-toggle\" data-toggle=\"collapse\" data-parent=\"#services-container\" data-target=\".packageDetails6\">\n										<td>Mummy Mornings</td>\n										<td><i class=\"indicator glyphicon glyphicon-menu-down pull-right\"></i>\n										</td>\n									</tr>\n									<!--end show lable-->\n									<tr>\n										<td colspan=\"2\" class=\"hiddenRow\">\n											<div class=\"accordion-body collapse packageDetails6\" id=\"accordion6\">\n												<div class=\"acc-body-text\">\n													<p>Have a date with your little one and attend one of our Mummy Mornings. It’s the perfect place to catch up with other Mums, Dads and caregivers and there will be some fun activities for the littlies. Our Mummy Mornings run February through to November and take place on the third Tuesday of the month from 10am to 12noon.</p>\n													<p>Lock a Mummy Morning into your calendar for 2016:</p>\n													<ul>\n														<li>21 June 2016</li>\n														<li>19 July 2016</li>\n														<li>16 August 2016</li>\n														<li>20 September 2016</li>\n														<li>18 October 2016</li>\n														<li>15 November 2016</li>\n													</ul>\n												</div>\n											</div>\n										</td>\n									</tr>\n									<!--end row 6-->\n									<!--start row 7-->\n									<tr id=\"package7\" class=\"accordion-toggle\" data-toggle=\"collapse\" data-parent=\"#services-container\" data-target=\".packageDetails7\">\n										<td>Justice of the Peace</td>\n										<td><i class=\"indicator glyphicon glyphicon-menu-down pull-right\"></i>\n										</td>\n									</tr>\n									<!--end show lable-->\n									<tr>\n										<td colspan=\"2\" class=\"hiddenRow\">\n											<div class=\"accordion-body collapse packageDetails7\" id=\"accordion7\">\n												<div class=\"acc-body-text\">Chartwell has a Justice of the Peace in centre each week, offering a range of services including\n													<ul>\n														<li>witnessing your signature on a document</li>\n														<li>certifying copies of documents for you, including cell phone texts and computer displayed results</li>\n														<li>completing an affidavit for you</li>\n														<li>completing a declaration for you</li>\n													</ul>\n												</div>\n\n											</div>\n										</td>\n									</tr>\n									<!--end row 7-->\n\n\n									<!--start row 8-->\n									<tr id=\"package8\" class=\"accordion-toggle\" data-toggle=\"collapse\" data-parent=\"#services-container\" data-target=\".packageDetails8\">\n										<td>Retail Leasing</td>\n										<td><i class=\"indicator glyphicon glyphicon-menu-down pull-right\"></i>\n										</td>\n									</tr>\n									<!--end show lable-->\n									<tr>\n										<td colspan=\"2\" class=\"hiddenRow\">\n											<div class=\"accordion-body collapse packageDetails8\" id=\"accordion8\">\n												<div class=\"acc-body-text\">\n													<p>Chartwell Shopping Centre is a modern retail hub for an area that is growing in both size and affluence. The Chartwell Shopping Centre houses almost 100 retail stores within the 27,000m² of lettable area. Retailers such as Wallace Cotton, Majestic Tea Bar, The Food Crew and iconic NZ brands such as Glassons, Max, Barkers, Meccano and a flagship Farmers store are some of the quality retailers represented at Chartwell Shopping Centre.</p>\n												</div>\n												<span class=\"body-italics\">Peter Tuck</span> National Manager&mdash;Retail Leasing DDI: +64 9 951 6011 Ph: +64 9 912 2690 Mob: +64 27 267 7457 Fax: +64 9 912 2693 Email:\n												<a href=\"mailto:peter.tuck@strideproperty.co.nz\">peter.tuck@strideproperty.co.nz</a>\n												<p>\n													<span class=\"body-italics\">Ronan McGinley</span> Leasing Manager DDI: +64 9 913 1156 Phone: +64 9 912 2690 Mobile: +64 22 344 1845 Fax: +64 9 912 2693 Email:\n													<a href=\"mailto:ronan.mcginley@strideproperty.co.nz\">ronan.mcginley@strideproperty.co.nz</a></p>\n											</div>\n\n										</td>\n									</tr>\n									<!--end row 8-->\n\n\n									<!--start row 9-->\n									<tr id=\"package9\" class=\"accordion-toggle\" data-toggle=\"collapse\" data-parent=\"#services-container\" data-target=\".packageDetails9\">\n										<td>Promotional Leasing</td>\n										<td><i class=\"indicator glyphicon glyphicon-menu-down pull-right\"></i>\n										</td>\n									</tr>\n									<!--end show lable-->\n									<tr>\n										<td colspan=\"2\" class=\"hiddenRow\">\n											<div class=\"accordion-body collapse packageDetails9\" id=\"accordion9\">\n												<div class=\"acc-headline\">Experiential marketing</div>\n												<div class=\"acc-body-text\">Within our centre we have dedicated experiential locations that create an ideal hub to reach a wide target audience. Set yourself up in one of our experiential marketing hubs and you can be certain your product demonstrations, sampling activities and car promotions will achieve maximum exposure.</div>\n												<div class=\"acc-headline\">Pop-up retail leasing</div>\n												<div class=\"acc-body-text\">\n													<p>Chartwell offers tailored pop-up leasing—the perfect solution for seasonal and event specific sales as well as ensuring brand exposure.</p>\n													<p>Whether you are looking for a temporary pop up store for a week or more, we can provide you with the ideal solution to enhance your sales in Chartwell Shopping Centre’s environment of retail excellence.</p>\n												</div>\n												<div class=\"acc-headline\">Filming opportunities</div>\n												<div class=\"acc-body-text\">Chartwell Shopping Centre offers the ultimate location for filming, movies, television shows and commercials. Talk to our customer services team if you would like to use our centre as a film location. </div>\n												<div class=\"acc-headline\">Further opportunities</div>\n												<div class=\"acc-body-text\">A range of branding opportunities are available in prominent locations within Chartwell Shopping Centre to elevate brand awareness and support sales.</div>\n												<div class=\"acc-headline\">Key facts</div>\n												<div class=\"acc-body-text\">\n													<ul>\n														<li>100 specialty stores</li>\n														<li>27,000m<sup>2</sup> retail space</li>\n														<li>2 anchor stores at each end of the mall (Farmers and Countdown)</li>\n														<li>Over 1,000 car parking spaces</li>\n														<li>Brand partnership experiences</li>\n														<li>400 seated foodcourt</li>\n													</ul>\n												</div>\n												<div class=\"acc-headline\">For booking enquiries please contact</div>\n												<div class=\"acc-body-copy\"><span class=\"body-italic\">Michaela Aspden</span> Brand Alliance Executive DDI: +64 9 980 0107 Phone: +64 9 912 2690 Mobile: +64 21 937 800 Fax: +64 9 912 2693 Email: <a href=\"mailto:michaela.aspden@strideproperty.co.nz\">michaela.aspden@strideproperty.co.nz</a></div>\n											</div>\n										</td>\n									</tr>\n									<!--end row 9-->\n\n								</tbody>\n							</table>\n						</div>\n						<!-- end accordion -->\n					</div>\n				</div>",
+			"",
+			"<a href=\"./index.html\" target=\"_self\">\n						<img class=\"img-responsive\" src=\"images/shared/queensgate_logo_bw.svg\" width=\"186\" height=\"auto\" border=\"0\" alt=\"queensgate-footer\"></a>\n					</div>\n<a href=\"./index.html\" target=\"_self\">\n<img class=\"img-responsive\" src=\"images/shared/queensgate_logo_bw.svg\" width=\"186\" height=\"auto\" border=\"0\" alt=\"queensgate-footer\"></a>",
+			"<a href=\"./index.html\" target=\"_self\">\n						<img class=\"img-responsive\" src=\"images/shared/queensgate_logo_bw.svg\" width=\"186\" height=\"auto\" border=\"0\" alt=\"queensgate-footer\"></a>\n					</div>\n",
+			"id=\"nav-movies\" class=\"navlink one-pixel-link nudge-movies-menu\""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 112.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 112.0
+	},
+	"pinned_build_system": "",
+	"project": "whatson.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": false,
+	"side_bar_visible": true,
+	"side_bar_width": 292.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

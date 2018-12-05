@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Chartwell Shopping Centre </title>
+
+    <link rel="stylesheet" href="./bootstrap/3.3.6/css/bootstrap.min.css" type="text/css" media="screen,projection" />
+    <link rel="stylesheet" href="./css/layout.css" type="text/css" media="screen,projection" />
+
+    <!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+    <script src="./js/jquery-2.2.2.min.js"></script>
+    <script src="./bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script>
+        function test(a, b) {
+            return a * b;
+        }
+    </script>
+
+</head>
+
+<body>
+    <div id="main-content">
+        <!-- Navigation -->
+        <nav class="navbar navbar-default" role="navigation" style="background-color:transparent; border:none">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#responsive-navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <div class="icon-bar-strategy"></div>
+                    <div class="icon-bar-strategy"></div>
+                    <div class="icon-bar-strategy"></div>
+                </button>
+                <a class="navbar-brand" href="./index.html">
+                    <div class="hidden-lg">
+                        <img class="img-responsive" src="./images/home/chartwell_logo.png" width="170px" height="auto" border="0" alt="Chartwell">
+                    </div>
+                    <div class="hidden-xs hidden-sm hidden-md">
+                        <img class="img-responsive" src="./images/home/chartwell_shopping_centre_logo.svg" width="360px" height="auto" border="0" alt="Chartwell">
+                    </div>
+                </a>
+            </div>
+
+            <!--			end nav-bar header-->
+            <div class="collapse navbar-collapse" id="responsive-navbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a id="nav-stores" class="navlink one-pixel-link" href="./stores.html">STORES</a></li>
+                    <li><a id="nav-whatson" class="navlink one-pixel-link" href="./whatson.html">WHAT'S ON</a></li>
+                    <li><a id="nav-info" class="navlink one-pixel-link" href="./centerinfo.html">CENTRE INFO</a></li>
+                    <li><a id="nav-giftcards" class="navlink one-pixel-link" href="./giftcards.html">GIFTCARDS</a></li>
+                    <li><a id="nav-movies" class="navlink one-pixel-link nudge-movies-menu" href="https://www.eventcinemas.co.nz/" target="_blank">MOVIES <span class="glyphicon glyphicon-new-window"></span></a></li>
+                    <li><a id="nav-contact" class="navlink one-pixel-link" href="./contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="flexify-as-row">
+            <div>
+                <p class="section-headline">Stores
+                    <br />at Chartwell</p>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+
+        <!--https://damienfremont.com/2014/12/19/how-to-expandcollapse-table-rows-with-bootstrap/-->
+        <!--		http://jsfiddle.net/7pwg1j5f/-->
+        <div id="container-wrapper-main">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="content-info">
+                            <div class="services "><span>Centre directory</span></div>
+                            <div class="animated-button-container">
+                                <a href="./stores.html" target="_self">
+                                    <button id="btn-services" class="btn btn-contact" type="button" aria-haspopup="false">
+
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="spacer-6rem">
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="row">
+
+                    <div class="col-xs-12 col-sm-12 col-md-8 col-lg-6">
+                        <div id="layout-table-map-key">
+                            <section class="layout-heading">Key</section>
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tr>
+                                    <td>
+                                        <img align="left" src="images/directory/cw_directory_icon_1.svg" border="0" alt="map" /></td>
+                                    <td><img align="left" src="images/directory/cw_directory_icon_6.svg" border="0" alt="map" /></td>
+                                </tr>
+                                <tr>
+                                    <td><img src="images/directory/cw_directory_icon_2.svg" border="0" alt="map" /></td>
+                                    <td><img align="left" src="images/directory/cw_directory_icon_7.svg" border="0" alt="map" /></td>
+                                </tr>
+                                <tr>
+                                    <td><img src="images/directory/cw_directory_icon_3.svg" border="0" alt="map" /></td>
+                                    <td><img align="left" src="images/directory/cw_directory_icon_8.svg" border="0" alt="map" /></td>
+                                </tr>
+                                <tr>
+                                    <td><img src="images/directory/cw_directory_icon_4.svg" border="0" alt="map" /></td>
+                                    <td><img align="left" src="images/directory/cw_directory_icon_9.svg" border="0" alt="map" /></td>
+                                </tr>
+                                <tr>
+                                    <td><img src="images/directory/cw_directory_icon_5.svg" border="0" alt="map" /></td>
+                                    <td><img align="left" src="images/directory/cw_directory_icon_10.svg" border="0" alt="map" /></td>
+                                </tr>
+
+
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <div class="row">
+
+                    <div class="col-sm-12">
+                        <div class="layout-top-line">&nbsp;</div>
+                        <section class="layout-heading">Level 1</section>
+                        <div id="floor-one">
+                            <div>
+                                <img class="center-block img-responsive" src="images/directory/cw_level_1.png" border="0" alt="Chartwell floor one">
+                            </div>
+                        </div>
+                        <div class="spacer-6rem">
+                        </div>
+
+                    </div>
+                    <div class="col-sm-12">
+
+                        <div class="layout-top-line">&nbsp;</div>
+                        <section class="layout-heading">Level 2</section>
+
+
+                        <div id="floor-two">
+                            <div>
+                                <img class="center-block img-responsive" src="images/directory/cw_level_2.png" border="0" alt="Chartwell floor two">
+                            </div>
+                        </div>
+
+                        <div class="spacer-6rem">
+                        </div>
+
+                    </div>
+                    <div class="col-sm-12">
+                        <div id="floor-three">
+                            <div class="layout-top-line">&nbsp;</div>
+                            <section class="layout-heading">Level 3</section>
+                            <div>
+                                <img class="center-block img-responsive" src="images/directory/cw_level_3.png" border="0" alt="Chartwell floor three">
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+
+                    </div>
+                </div>
+
+
+                <!--		end container-fluid-->
+            </div>
+        </div>
+    </div>
+    <!--	end main-content-->
+
+    <div class="strip-home"></div>
+
+
+    <div class="container-fluid">
+        <div class="row">
+
+            <div class="col-sm-12">
+
+                <div class="footer-flex-desktop">
+                    <div class="footer-social-icons">
+                        <img src="images/shared/instagram_icon.png" width="36" border="0" alt="chartwell-footer">
+                        <img src="images/shared/facebook_icon.png" width="36" border="0" alt="chartwell-footer">
+                    </div>
+
+                    <div class="footer-nav">
+                        <ul>
+                            <li><a class="one-pixel-link" href="./contact.html">CONTACT US</a></li>
+                            <li><a class="one-pixel-link" href="http://www.strideproperty.co.nz/">STRIDE PROPERTY LTD</a></li>
+                            <li><a class="one-pixel-link" href="./privacy.html">PRIVACY POLICY</a></li>
+                            <li><a class="one-pixel-link" href="./terms.html">TERMS + CONDITIONS</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-logo">
+                        <a href="./index.html" target="_self">
+                            <img src="images/shared/chartwell_logo_bw.png" width="140" height="24" border="0" alt="chartwell-footer">
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>
