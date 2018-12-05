@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+
+<!-- kevindowd@mediaworks.co.nz -->
+<html lang="en">
+
+<head>
+    <title>Halfpage Cube</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <link rel="stylesheet" href="messages.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: white;
+            overflow: hidden;
+            font-family: Verdana, Arial, Helvetica, sans-serif;
+            line-height: 17px;
+
+        }
+
+        .adbanner {
+            /* outline: 1px solid red;
+outline-offset: -1px;  */
+            position: relative;
+            width: 300px;
+            height: 600px;
+            background-color: white;
+
+            margin: 1% auto;
+            /* thin stripes, nice, https://codepen.io/rileyjshaw/pen/dBygE/*/
+        }
+
+        #container {
+            display: block;
+            position: relative;
+            background-color: white;
+            top: 1px;
+            width: 300px;
+            height: 600px;
+            z-index: 2;
+            margin: 0 auto;
+            overflow: visible;
+            /* outline: 1px solid red;
+            outline-offset: -1px; */
+        }
+
+        .my-border {
+            box-sizing: border-box;
+            width: 300px;
+            height: 600px;
+            background-color: transparent;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 101;
+            border: 0px solid lightgrey;
+            pointer-events: none;
+        }
+
+
+
+        canvas {
+            /* border: 1px solid #f9d8c9; */
+            background-color: transparent;
+            cursor: ew-resize;
+        }
+
+        .hand-icon {
+            position: absolute;
+
+            display: block;
+            left: 50%;
+            top: 38%;
+            pointer-events: none;
+            z-index: 99;
+        }
+
+        .hand {
+            background-color: transparent;
+            width: inherit;
+            height: inherit;
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            margin: auto;
+            z-index: 100;
+            -webkit-animation: fade-out 500ms;
+            animation: fade-out 500ms;
+            -webkit-animation-delay: 2s;
+            animation-delay: 2s;
+            pointer-events: none;
+            -webkit-animation-iteration-count: 1;
+            animation-iteration-count: 1;
+            -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+
+        }
+
+        @-webkit-keyframes fade-out {
+            0% {
+                display: block;
+            }
+            100% {
+
+                opacity: 0;
+                display: none;
+            }
+        }
+
+        @keyframes fade-out {
+            0% {
+                display: block;
+            }
+            100% {
+
+                opacity: 0;
+                display: none;
+            }
+        }
+    </style>
+
+
+    <style>
+
+        iframe {
+            width:300px;
+            height:600px
+        }
+    </style>
+
+
+</head>
+
+<body>
+
+    <div class="adbanner">
+       <iframe src="index2.html" style="" frameborder="0"></iframe>
+    </div>
+</body>
+
+</html>
