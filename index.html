@@ -11,34 +11,40 @@
 </head>
 
 
-
-
-
 <body>
     <div class="site">
-        <header id="masthead" class="site-header" role="banner">
+        <header class="site-header">
+
             <hgroup>
                 <h1>endif { }</h1>
                 <h5>listen, deliver, evolve</h5>
             </hgroup>
 
+
+
             <nav class="main-navigation" role="navigation">
                 <div class="nav-item">
-                    <p>Projects</p>
+                    <a href="">
+
+                        <a href="#contacts" target="_self">
+                            <p>Contact Details</p>
+                        </a>
+
+                    </a>
                 </div>
-                <div class="nav-item">
-                    <p> About me</p>
-                </div>
+
             </nav>
             <!-- #site-navigation -->
 
         </header>
         <section class="intro">
             <p>Welcome.</p>
-            <p>The following is a list of recent sites built by myself. For some sites I worked with a design team and for others I was both developer and designer.</p>
+            <p>The following is a list of recent sites built by myself.</p>
+            <p>For some sites I worked with a design team and for others I was both developer and designer.</p>
             <p>Mixed in with the sites are some rich media creatives - banners in effect. I include them here because a few of them have clever scripting or show the use of 3rd party libraries or frameworks.
             </p>
-            <p>These days I like to build WordPress sites - I mean build them up from an empty theme file maybe with the use of Bootstrap. I'm hoping Gutenberg will be a success and provide me with lots of work.</p>
+            <p>These days I like to build WordPress sites - I mean build them up from an empty theme file maybe with the use of Bootstrap. I'm hoping Gutenberg will be a success and provide me with lots of work.
+            </p>
         </section>
 
         <!-- lets wrap all the boxes -->
@@ -46,10 +52,9 @@
 
             <div class="box">
                 <div>
-                    <figure>
-                        <img src="assets/phone.png" alt="">
 
-                    </figure>
+                    <img src="assets/phone.png" alt="">
+
                     <a href="https://advertising.mediaworks.co.nz/vodpreview/" target="_blank" role="button">
                         <button class="my-btn view-site">View Site </button>
                     </a>
@@ -90,10 +95,10 @@
 
             <div class="box">
                 <div>
-                    <figure>
-                        <img src="assets/phone_ips.png" alt="phone">
 
-                    </figure>
+                    <img src="assets/phone_ips.png" alt="phone">
+
+
                     <a href="http://ipsaccounting.co.nz/" target="_blank" role="button">
                         <button class="my-btn view-site">View Site </button>
                     </a>
@@ -120,7 +125,7 @@
                         <p> Fresh site emphasizing growth and prosperity. The aim was too have large fonts and SVG's where possible and to have it all load as a single page. Client didn't have any assets.
                         </p>
 
-                        <p>I was both devloper and designer for this build - small client budget.</p>
+                        <p>I was both developer and designer for this build - small client budget.</p>
                         <p>I prefer development work but I can design and follow a client design brief if need be.
 
                         </p>
@@ -132,10 +137,7 @@
             <!-- end work two -->
             <div class="box">
                 <div>
-                    <figure>
-                        <img src="assets/phone_chartwell.png" alt="">
-
-                    </figure>
+                    <img src="assets/phone_chartwell.png" alt="">
                     <a href="http://booksnotcooked.co.nz/chartwell/dev/" target="_blank" role="button">
                         <button class="my-btn view-site">View Site </button>
                     </a>
@@ -172,10 +174,9 @@
                 <div>
                     <figure>
                         <iframe src="assets/banner/index.html" width="300" height="250" frameborder="0" seamless></iframe>
-
                     </figure>
 
-                    <a href="https://advertising.mediaworks.co.nz/vodpreview/" target="_blank" role="button">
+                    <a href="./banners/index.html" target="_blank" role="button">
                         <button class="my-btn view-site offset-for-banner">Banner selection </button>
                     </a>
                 </div>
@@ -183,11 +184,11 @@
 
                     <div class="info">
                         <div class="header">
-                            <h5>Rich Media</h5>
+                            <h5> Rich Media</h5>
                         </div>
                         <div class="bullets">
                             <ol>
-                                <li>Often complex javascript</li>
+                                <li>Complex javascript</li>
                                 <li>Third party libs - ThreeJS, JQuery</li>
                                 <li>DoubleClick & Sizmek</li>
                                 <li>CSS3 animation - keeps things lightweight</li>
@@ -203,21 +204,84 @@
                         </p>
                         <p>Strong knowledge of building creative for DoubleClick with GWD, Adobe Animate and vanilla js. As long as you add a exit click and the Enabler API you can build creative in many different ways.</p>
 
-                        <p>Click for a selection of ads from the last 12 months.</p>
+                        <p>
+                            <a href="./banners/index.html" target="_blank"><u> Click for a selection</u></a> of ads from the last 12 months.
+                        </p>
 
 
                     </header>
 
                 </div>
-                <!-- end content one -->
+                <!-- end content  -->
             </div>
             <!-- end work one -->
+            <div id="contacts" class="box">
+                <ol class="contact-details">
+                    <li>
+
+                        <header>
+                            <h2>Address:</h2>
+                        </header>
+                        <div>
+                            <p>76, Nigel Road</p>
+                            <p>Browns Bay, Auckland, 0630</p>
+                            <p>New Zealand</p>
+                        </div>
+
+                    </li>
+                    <li>
+
+                        <header>
+                            <h2>Email:</h2>
+                        </header>
+                        <div>
+                            <p>kevin.dowd@gmail.com</p>
+                        </div>
+
+                    </li>
+                    <li>
+
+                        <header>
+                            <h2>Phone:</h2>
+                        </header>
+                        <div>
+                            <p>0226 821189 / 09 479 6980</p>
+                        </div>
+
+                    </li>
+
+
+
+                </ol>
+            </div>
         </section>
 
     </div>
     <!-- end intro  -->
     <!-- end site wrapper -->
+    <footer>
+        <div class="endif">
+            <a href="mailto:kevin.dowd@gmail.com?subject=Mail from endif site ">
+                <table>
+                    <tbody>
+                        <tr>
+                            <th></th>
+                            <th></th>
+                        </tr>
+                    </tbody>
+                    <tbody>
 
+                        <tr>
+                            <td>endif digital</td>
+                        </tr>
+                        <tr>
+                            <td>© 2018 </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </a>
+        </div>
+    </footer>
 </body>
 
 </html>
