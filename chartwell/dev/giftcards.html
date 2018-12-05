@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Chartwell Shopping Centre </title>
+
+	<link rel="stylesheet" href="./bootstrap/3.3.6/css/bootstrap.min.css" type="text/css" media="screen,projection" />
+	<link rel="stylesheet" href="./css/giftcards.css" type="text/css" media="screen,projection" />
+
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<script src="./js/jquery-2.2.2.min.js"></script>
+	<script src="./bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	<script src="./js/accordion_events.js"></script>
+
+</head>
+
+<body>
+	<div id="main-content" class="giftcards">
+		<!-- Navigation -->
+		<nav class="navbar navbar-default" role="navigation" style="background-color:transparent; border:none">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#responsive-navbar">
+					<span class="sr-only">Toggle navigation</span>
+					<div class="icon-bar-strategy-black"></div>
+					<div class="icon-bar-strategy-black"></div>
+					<div class="icon-bar-strategy-black"></div>
+				</button>
+				<a class="navbar-brand" href="./index.html">
+					<div class="hidden-lg">
+						<img class="img-responsive" src="./images/home/chartwell_logo_bw.png" width="170px" height="auto" border="0" alt="Chartwell">
+					</div>
+					<div class="hidden-xs hidden-sm hidden-md">
+						<img class="img-responsive" src="./images/home/chartwell_shopping_centre_logo_bw.png" width="360px" height="auto" border="0" alt="Chartwell">
+					</div>
+				</a>
+			</div>
+			<!--			end nav-bar header-->
+			<div class="collapse navbar-collapse" id="responsive-navbar">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a id="nav-stores" class="navlink one-pixel-link" href="./stores.html">STORES</a></li>
+					<li><a id="nav-whatson" class="navlink one-pixel-link" href="./whatson.html">WHAT'S ON</a></li>
+					<li><a id="nav-info" class="navlink one-pixel-link" href="./centerinfo.html">CENTRE INFO</a></li>
+					<li><a id="nav-giftcards" class="navlink one-pixel-link" href="./giftcards.html">GIFTCARDS</a></li>
+					<li><a id="nav-movies" class="navlink one-pixel-link" href="https://www.eventcinemas.co.nz/" target="_blank">MOVIES <span class="glyphicon glyphicon-new-window"></span></a></li>
+					<li><a id="nav-contact" class="navlink one-pixel-link" href="./contact.html">CONTACT</a></li>
+				</ul>
+			</div>
+		</nav>
+
+
+		<div class="flexify-gift-as-row vert-spacer">
+			<div class="hero-gift"><img src="./images/gifts/gift_cards.png"></div>
+
+			<div class="find-gift">
+				<p class="section-headline">Find the perfect gift at Chartwell</p>
+			</div>
+
+			<div class="avail-container">
+				<p>Available in six colours</p>
+				<div class="rainbow-colours-container">
+					<div id="one"></div>
+					<div id="two"></div>
+					<div id="three"></div>
+					<div id="four"></div>
+					<div id="five"></div>
+					<div id="six"></div>
+				</div>
+			</div>
+
+
+			<div class="view-balance-container">
+				<div class="animated-button-container">
+					<a href="" target="_blank">
+						<button class="btn btn-contact purchase-gift" type="button" aria-haspopup="false">
+						</button>
+					</a>
+				</div>
+			</div>
+
+
+			<div class="view-stores-container">
+				<a href="./stores.html" target="_self">
+					<u>VIEW OUR STORES</u></a>
+			</div>
+		</div>
+
+
+		<!--		end of flexbox-->
+		<div id="container-wrapper-main">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12 col-md-8 col-md-push-2">
+						<div class="col-sm-6">
+							<div class="whatson-story-left-text-block">
+								<p>Looking for the perfect gift but not quite sure what to get?</p>
+							</div>
+						</div>
+						<div class="col-sm-6">
+							<div class="whatson-story-right-text-block">
+								<div> Everyone loves a gift card and we have a range of options to suit any budget. Our gift cards start from $10 and are valid for 12 months. Chartwell Shopping Centre Gift Cards can be purchased 7 days a week from our Customer Service desk using cash, EFTPOS and credit cards (Visa and MasterCard).</div>
+								<div>Click here to check the balance of your Chartwell gift card.</div>
+								<div>Frequently asked questions on gift cards.</div>
+
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-sm-12 col-md-8 col-md-push-2">
+						<div class="faq-container">
+							<!-- start accordion -->
+							<div class="services-container">
+
+								<!--	<table id="tableSearchResults" class="table table-hover  table-striped table-condensed">-->
+								<table id="tableSearchResults" class="table table-responsive">
+									<thead>
+										<tr>
+											<th></th>
+											<th></th>
+										</tr>
+									</thead>
+									<tbody>
+										<!--start row 1-->
+										<tr id="package1" class="accordion-toggle" data-toggle="collapse" data-parent="#services-container" data-target=".packageDetails1">
+											<td>Which stores can I use the Chartwell Gift Card in?</td>
+											<td>
+												<i class="indicator glyphicon glyphicon-menu-down pull-right"></i>
+											</td>
+										</tr>
+										<!--end show lable-->
+										<tr>
+											<td colspan="2" class="hiddenRow">
+												<div class="accordion-body collapse packageDetails1" id="accordion1">
+													<div class="acc-body-text">Chartwell Gift Cards are valid in the many participating retail stores at Chartwell Shopping Centre. There are, however, a minority of retailers who may not accept the Chartwell Gift Card. Please check in-store before you purchase.</div>
+
+
+												</div>
+											</td>
+										</tr>
+										<!--end hidden row-->
+										<!--end row 1-->
+										<!--start row 2-->
+
+										<tr id="package2" class="accordion-toggle" data-toggle="collapse" data-parent="#services-container" data-target=".packageDetails2">
+											<td>Does a Chartwell Gift Card expire?</td>
+
+											<td><i class="indicator glyphicon glyphicon-menu-down pull-right"></i>
+
+											</td>
+										</tr>
+										<tr>
+											<td colspan="2" class="hiddenRow">
+												<div class="accordion-body collapse packageDetails2" id="accordion2">
+
+													<div class="acc-body-text">A Chartwell Gift Card expires 12 months from the date of purchase.</div>
+
+
+												</div>
+											</td>
+										</tr>
+										<!--end row 2-->
+										<!--start row 3-->
+										<tr id="package3" class="accordion-toggle" data-toggle="collapse" data-parent="#services-container" data-target=".packageDetails3">
+											<td>What does the Chartwell Gift Card come with?</td>
+											<td><i class="indicator glyphicon glyphicon-menu-down pull-right"></i>
+											</td>
+										</tr>
+										<!--end show lable-->
+										<tr>
+											<td colspan="2" class="hiddenRow">
+												<div class="accordion-body collapse packageDetails3" id="accordion3">
+													<div class="acc-body-text">Each Chartwell Gift Card purchased in-centre or through <span class="body-italic">Chartwell Corporate Gift Card purchases</span>comes with an attractive cardboard wallet.</div>
+												</div>
+											</td>
+										</tr>
+										<!--end row 3-->
+										<!--start row 4-->
+										<tr id="package4" class="accordion-toggle" data-toggle="collapse" data-parent="#services-container" data-target=".packageDetails4">
+											<td>How can I pay for a Chartwell Gift Card?</td>
+											<td><i class="indicator glyphicon glyphicon-menu-down pull-right"></i>
+											</td>
+										</tr>
+										<!--end show lable-->
+										<tr>
+											<td colspan="2" class="hiddenRow">
+												<div class="accordion-body collapse packageDetails4" id="accordion4">
+													<div class="acc-body-text">If you are purchasing your Chartwell Gift Card online, all major credit cards are accepted as payment. If you are purchasing in centre, you can pay using cash, EFTPOS or any major credit card.</div>
+												</div>
+											</td>
+										</tr>
+										<!--end row 4-->
+										<!--start row 5-->
+										<tr id="package5" class="accordion-toggle" data-toggle="collapse" data-parent="#services-container" data-target=".packageDetails5">
+											<td>Can I add more money onto a Chartwell Gift Card?</td>
+											<td><i class="indicator glyphicon glyphicon-menu-down pull-right"></i>
+											</td>
+										</tr>
+										<!--end show lable-->
+										<tr>
+											<td colspan="2" class="hiddenRow">
+												<div class="accordion-body collapse packageDetails5" id="accordion5">
+													<div class="acc-body-text">No. The Chartwell Gift Card can only be loaded with value once, at the time of purchase.</div>
+												</div>
+											</td>
+										</tr>
+										<!--end row 5-->
+										<!--start row 6-->
+										<tr id="package6" class="accordion-toggle" data-toggle="collapse" data-parent="#services-container" data-target=".packageDetails6">
+											<td>Can I get my money refunded?</td>
+											<td><i class="indicator glyphicon glyphicon-menu-down pull-right"></i>
+											</td>
+										</tr>
+										<!--end show lable-->
+										<tr>
+											<td colspan="2" class="hiddenRow">
+												<div class="accordion-body collapse packageDetails6" id="accordion6">
+													<div class="acc-body-text">Chartwell Gift Cards are not refundable. You should treat your Chartwell Gift Card as if it was cash.</div>
+												</div>
+											</td>
+										</tr>
+										<!--end row 6-->
+										<!--start row 7-->
+										<tr id="package7" class="accordion-toggle" data-toggle="collapse" data-parent="#services-container" data-target=".packageDetails7">
+											<td>Can I buy something that costs more or less than the value on my Chartwell Gift Card</td>
+											<td><i class="indicator glyphicon glyphicon-menu-down pull-right"></i>
+											</td>
+										</tr>
+										<!--end show lable-->
+										<tr>
+											<td colspan="2" class="hiddenRow">
+												<div class="accordion-body collapse packageDetails7" id="accordion7">
+													<div class="acc-body-text">Your Chartwell Gift Card can be used repeatedly until the value of the Card has been used (or the Card has expired). For purchases greater than the remaining Card balance, participating retailers may accept supplemental forms of payment, but this is subject to the policies of the individual retailer. Please consult the participating retailer for more information.</div>
+
+												</div>
+											</td>
+										</tr>
+										<!--end row 7-->
+
+
+										<!--start row 8-->
+										<tr id="package8" class="accordion-toggle" data-toggle="collapse" data-parent="#services-container" data-target=".packageDetails8">
+											<td>Can I use more than one Chartwell Gift Card in a purchase?</td>
+											<td><i class="indicator glyphicon glyphicon-menu-down pull-right"></i>
+											</td>
+										</tr>
+										<!--end show lable-->
+										<tr>
+											<td colspan="2" class="hiddenRow">
+												<div class="accordion-body collapse packageDetails8" id="accordion8">
+													<div class="acc-body-text">Some retailers do allow using more than one payment type to pay for an item. Please check with the retailer at point of purchase, as acceptance is subject to the policies of the individual retailer.</div>
+												</div>
+
+											</td>
+										</tr>
+										<!--end row 8-->
+
+
+										<!--start row 9-->
+										<tr id="package9" class="accordion-toggle" data-toggle="collapse" data-parent="#services-container" data-target=".packageDetails9">
+											<td>Can I exchange my Chartwell Gift Card for cash?</td>
+											<td><i class="indicator glyphicon glyphicon-menu-down pull-right"></i>
+											</td>
+										</tr>
+										<!--end show lable-->
+										<tr>
+											<td colspan="2" class="hiddenRow">
+												<div class="accordion-body collapse packageDetails9" id="accordion9">
+													<div class="acc-body-text">No. The Chartwell Gift Card cannot be exchanged for cash.</div>
+												</div>
+											</td>
+										</tr>
+										<!--end row 9-->
+										<!--start row 10-->
+										<tr id="package10" class="accordion-toggle" data-toggle="collapse" data-parent="#services-container" data-target=".packageDetails10">
+											<td>Can I withdraw money from my Chartwell Gift Card?</td>
+											<td><i class="indicator glyphicon glyphicon-menu-down pull-right"></i>
+											</td>
+										</tr>
+										<!--end show lable-->
+										<tr>
+											<td colspan="2" class="hiddenRow">
+												<div class="accordion-body collapse packageDetails10" id="accordion10">
+													<div class="acc-body-text">No. The Chartwell Gift Card can be used for making purchases only.</div>
+												</div>
+											</td>
+										</tr>
+										<!--end row 10-->
+
+
+										<!--start row 11-->
+										<tr id="package11" class="accordion-toggle" data-toggle="collapse" data-parent="#services-container" data-target=".packageDetails11">
+											<td>How do I know how much money is left on my Chartwell Gift Card?</td>
+											<td><i class="indicator glyphicon glyphicon-menu-down pull-right"></i>
+											</td>
+										</tr>
+										<!--end show lable-->
+										<tr>
+											<td colspan="2" class="hiddenRow">
+												<div class="accordion-body collapse packageDetails11" id="accordion11">
+													<div class="acc-body-text">The quickest and easiest way is to check your balance online. You can also visit the <span class="body-italic">Customer Service Desk</span> at any Chartwell Shopping Centre.</div>
+												</div>
+											</td>
+										</tr>
+										<!--end row 9-->
+										<!--start row 9-->
+										<tr id="package12" class="accordion-toggle" data-toggle="collapse" data-parent="#services-container" data-target=".packageDetails12">
+											<td>Where can I find the PIN and card number?</td>
+											<td><i class="indicator glyphicon glyphicon-menu-down pull-right"></i>
+											</td>
+										</tr>
+										<!--end show lable-->
+										<tr>
+											<td colspan="2" class="hiddenRow">
+												<div class="accordion-body collapse packageDetails12" id="accordion12">
+													<div class="acc-body-text">Your PIN number is the 4-digit number that can be found underneath the scratch panel at the bottom left on the back of the Gift Card. Your Gift Card number is the 10-digit number&mdash;also on the back of your Card.</div>
+
+												</div>
+											</td>
+										</tr>
+										<!--end row 9-->
+										<!--start row 13-->
+										<tr id="package13" class="accordion-toggle" data-toggle="collapse" data-parent="#services-container" data-target=".packageDetails13">
+											<td>What do I do if I believe there is a mistake with my Chartwell Gift Card balance?</td>
+											<td><i class="indicator glyphicon glyphicon-menu-down pull-right"></i>
+											</td>
+										</tr>
+										<!--end show lable-->
+										<tr>
+											<td colspan="2" class="hiddenRow">
+												<div class="accordion-body collapse packageDetails13" id="accordion13">
+													<div class="acc-body-text">Simply call the <span class="body-italic">Chartwell Gift Card Help Line</span> on 0800 CHARTWELL or 0800 937 834 or visit the <span class="body-italic">Customer Service Desk</span> at your nearest Chartwell shopping centre for assistance.</div>
+												</div>
+											</td>
+										</tr>
+										<!--end row 13-->
+										<!--start row 9-->
+										<tr id="package14" class="accordion-toggle" data-toggle="collapse" data-parent="#services-container" data-target=".packageDetails14">
+											<td>Can I check my Chartwell Gift Card balance in-store?</td>
+											<td><i class="indicator glyphicon glyphicon-menu-down pull-right"></i>
+											</td>
+										</tr>
+										<!--end show lable-->
+										<tr>
+											<td colspan="2" class="hiddenRow">
+												<div class="accordion-body collapse packageDetails14" id="accordion14">
+													<div class="acc-body-text">You cannot check your balance at individual retailers. However, balance enquiries can be made at the Chartwell
+														<span class="body-italic">Customer Service Desk</span>
+													</div>
+												</div>
+											</td>
+										</tr>
+										<!--end row 9-->
+										<!--start row 9-->
+										<tr id="package15" class="accordion-toggle" data-toggle="collapse" data-parent="#services-container" data-target=".packageDetails15">
+											<td>What do I do if my Chartwell Gift Card is lost, stolen or damaged?</td>
+											<td><i class="indicator glyphicon glyphicon-menu-down pull-right"></i>
+											</td>
+										</tr>
+										<!--end show lable-->
+										<tr>
+											<td colspan="2" class="hiddenRow">
+												<div class="accordion-body collapse packageDetails15" id="accordion15">
+													<div class="acc-body-text">Unlike other cards, Chartwell Gift Cards can be replaced if lost, stolen or damaged. If you can provide the original Chartwell receipt (not the EFTPOS receipt), our <span class="body-italic">Customer Service Team</span> can cancel the lost, stolen or damaged Card and help you arrange for a replacement Card, subject to the Gift Card terms and conditions. Simply visit the <span class="body-italic">Customer Service Desk</span> at your local Chartwell Shopping Centre or call the <span class="body-italic">Gift Card Helpline</span> on 0800 CHARTWELL or 0800 937 834. Lost, stolen or damaged cards may take up to ten working days to be replaced.
+
+														<p><a href="" class="nav-button" target="_blank">View Chartwell Gift Card Terms and Conditions here.</a></p>
+													</div>
+												</div>
+											</td>
+										</tr>
+										<!--end row 9-->
+
+									</tbody>
+								</table>
+							</div>
+							<!-- end accordion -->
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+
+	</div>
+	<!--	end main-content-->
+
+	<div class="strip-home"></div>
+
+
+	<div class="container-fluid">
+		<div class="row">
+
+			<div class="col-sm-12">
+
+				<div class="footer-flex-desktop">
+					<div class="footer-social-icons">
+						<img src="images/shared/instagram_icon.png" width="36" border="0" alt="chartwell-footer">
+						<img src="images/shared/facebook_icon.png" width="36" border="0" alt="chartwell-footer">
+					</div>
+
+					<div class="footer-nav">
+						<ul>
+							<li><a class="one-pixel-link" href="./contact.html">CONTACT US</a></li>
+							<li><a class="one-pixel-link" href="http://www.strideproperty.co.nz/">STRIDE PROPERTY LTD</a></li>
+							<li><a class="one-pixel-link" href="./privacy.html">PRIVACY POLICY</a></li>
+							<li><a class="one-pixel-link" href="./terms.html">TERMS + CONDITIONS</a></li>
+						</ul>
+					</div>
+
+					<div class="footer-logo">
+						<a href="./index.html" target="_self">
+							<img src="images/shared/chartwell_logo_bw.png" width="140" height="24" border="0" alt="chartwell-footer">
+						</a>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+</body>
+
+</html>

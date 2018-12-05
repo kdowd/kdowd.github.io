@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Chartwell Shopping Centre </title>
+
+	<link rel="stylesheet" href="./bootstrap/3.3.6/css/bootstrap.min.css" type="text/css" media="screen,projection" />
+	<link rel="stylesheet" href="./css/centreinfo.css" type="text/css" media="screen,projection" />
+
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<script src="./js/jquery-2.2.2.min.js"></script>
+	<script src="./bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	<script src="./js/accordion_events.js"></script>
+
+
+</head>
+
+<body>
+	<div id="main-content" class="contact">
+		<!-- Navigation -->
+		<nav class="navbar navbar-default" role="navigation" style="background-color:transparent; border:none">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#responsive-navbar">
+					<span class="sr-only">Toggle navigation</span>
+					<div class="icon-bar-strategy"></div>
+					<div class="icon-bar-strategy"></div>
+					<div class="icon-bar-strategy"></div>
+				</button>
+				<a class="navbar-brand" href="./index.html">
+					<div class="hidden-lg">
+						<img class="img-responsive" src="./images/home/chartwell_logo.png" width="170px" height="auto" border="0" alt="Chartwell">
+					</div>
+					<div class="hidden-xs hidden-sm hidden-md">
+						<img class="img-responsive" src="./images/home/chartwell_shopping_centre_logo.svg" width="360px" height="auto" border="0" alt="Chartwell">
+					</div>
+				</a>
+			</div>
+			<!--			end nav-bar header-->
+			<div class="collapse navbar-collapse" id="responsive-navbar">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a id="nav-stores" class="navlink one-pixel-link" href="./stores.html">STORES</a></li>
+					<li><a id="nav-whatson" class="navlink one-pixel-link" href="./whatson.html">WHAT'S ON</a></li>
+					<li><a id="nav-info" class="navlink one-pixel-link" href="./centerinfo.html">CENTRE INFO</a></li>
+					<li><a id="nav-giftcards" class="navlink one-pixel-link" href="./giftcards.html">GIFTCARDS</a></li>
+					<li><a id="nav-movies" class="navlink one-pixel-link" href="https://www.eventcinemas.co.nz/" target="_blank">MOVIES <span class="glyphicon glyphicon-new-window"></span></a></li>
+					<li><a id="nav-contact" class="navlink one-pixel-link" href="./contact.html">CONTACT</a></li>
+				</ul>
+			</div>
+		</nav>
+
+		<div class="flexify-as-row">
+			<div>
+				<p class="section-headline">Centre info
+					<br />at Chartwell</p>
+			</div>
+		</div>
+		<div class="clearfix"></div>
+
+		<!--https://damienfremont.com/2014/12/19/how-to-expandcollapse-table-rows-with-bootstrap/-->
+		<!--		http://jsfiddle.net/7pwg1j5f/-->
+		<div id="container-wrapper-main">
+			<div class="container">
+				<div class="row">
+
+					<div class="col-sm-12">
+						<div class="content-info">
+							<div class="services "><span>LIST OF SERVICES</span></div>
+							<div class="animated-button-container">
+								<a href="./contact.html" target="_self">
+									<button id="btn-services" class="btn btn-contact" type="button" aria-haspopup="false">
+
+									</button>
+								</a>
+							</div>
+						</div>
+						<div class="spacer-6rem">
+						</div>
+
+					</div>
+
+				</div>
+
+
+				<div class="row">
+					<div class="col-sm-12">
+						<!-- start accordion -->
+						<div class="services-container">
+
+							<!--	<table id="tableSearchResults" class="table table-hover  table-striped table-condensed">-->
+							<table id="tableSearchResults" class="table table-responsive">
+								<thead>
+									<tr>
+										<th></th>
+										<th></th>
+									</tr>
+								</thead>
+								<tbody>
+									<!--start row 1-->
+									<tr id="package1" class="accordion-toggle" data-toggle="collapse" data-parent="#services-container" data-target=".packageDetails1">
+										<td>How to get here</td>
+
+										<td>
+											<i class="indicator glyphicon glyphicon-menu-down pull-right"></i>
+										</td>
+									</tr>
+									<!--end show lable-->
+
+									<tr>
+										<td colspan="2" class="hiddenRow">
+											<div class="accordion-body collapse packageDetails1" id="accordion1">
+
+												<div class="acc-body-text">We are located at 201 Hukanui Road, Hamilton.</div>
+												<div class="acc-headline">Travelling by Car</div>
+												<div class="acc-body-text">
+													<p><span class="body-italics">If you are coming from the North</span>, drive down State Highway 1 towards Hamilton until you reach the first roundabout, you will see Burger King opposite on the right. Turn left onto Wairere Drive and continue down to the fourth roundabout. At this roundabout turn right onto Hukanui Road. You will find us 1km down Hukanui Road. We have heaps of parking.</p>
+													<p><span class="body-italics">If you are coming from the South</span>, drive down State Highway 1 until you reach the first roundabout and turn left onto Cobham Drive. Continue along Cobham Drive until you reach Galloway Street on your right. Turn right onto Galloway and stay on this road, it will turn into Peachgrove Road and then Hukanui Road. You will find us 6km up this road on your left. We have heaps of parking.</p>
+												</div>
+												<div class="acc-headline">Public Transport</div>
+												<div class="acc-body-text">
+													<p>We are lucky to have an excellent bus service to and from the <span class="body-italics">City Transport Centre</span> in Ward Street, Hamilton. This service is run by the Waikato Regional Council. The routes servicing Chartwell are the 4, 5, 16, 14, RDW as well as the Orbiter. For more information and timetables call Busline on (07) 856 4579 or visit <a href="http://www.busit.co.nz/" target="_blank">busit.co.nz.</a></p>
+												</div>
+												<div class="acc-headline">Taxi</div>
+												<div class="acc-body-text">Taxis are available for travel to and from Chartwell. Call <span class="body-italics">Hamilton Taxi Society</span> on 0800 477 477
+												</div>
+											</div>
+										</td>
+									</tr>
+									<!--end hidden row-->
+									<!--end row 1-->
+									<!--start row 2-->
+									<tr id="package2" class="accordion-toggle" data-toggle="collapse" data-parent="#services-container" data-target=".packageDetails2">
+										<td>Personal sessions</td>
+
+										<td><i class="indicator glyphicon glyphicon-menu-down pull-right"></i>
+
+										</td>
+									</tr>
+									<tr>
+										<td colspan="2" class="hiddenRow">
+											<div class="accordion-body collapse packageDetails2" id="accordion2">
+
+												<div class="acc-body-text">Because we like to look after our customers we have free customer car parking for up to four hours (P240) in the majority of our Centre car parks. There are also one and a half hour (P90) parking zones for those looking to make a more express visit. Look out for the markings to make sure you park in the right space.
+												</div>
+												<div class="acc-headline">Free extended parking</div>
+												<div class="acc-body-text">If you really want to make a day of it and think you will be visiting us for more that 4 hours then please visit the Customer Service Desk on Level 2. The kind staff there will give you an extended parking coupon which will last for the whole day. You will need to display this on your dashboard. Remember, car parks are for the use of Chartwell customers only, so please don't be offended if you are asked to verify that you have been shopping at the Centre.
+												</div>
+												<div class="acc-headline">Parking with prams</div>
+												<div class="acc-body-text">If you are shopping with young children we have designated some specially marked <span class="body-italics">Parents with Prams</span> parking spots located at the entrances of the centre.
+												</div>
+
+												<a href="" class="nav-button" target="_blank">BOOK YOUR SESSION NOW</a>
+
+
+											</div>
+										</td>
+									</tr>
+									<!--end row 2-->
+									<!--start row 3-->
+									<tr id="package3" class="accordion-toggle" data-toggle="collapse" data-parent="#services-container" data-target=".packageDetails3">
+										<td>Styling sessions</td>
+										<td><i class="indicator glyphicon glyphicon-menu-down pull-right"></i>
+										</td>
+									</tr>
+									<!--end show lable-->
+									<tr>
+										<td colspan="2" class="hiddenRow">
+											<div class="accordion-body collapse packageDetails3" id="accordion3">
+												<div class="acc-body-text">Do you know what works for your shape, size and colouring? With new collections coming out all the time, knowing what trends to follow can be tricky. But, with the help of one our expert personal stylists you will look and feel great in no time. Sit down with one our stylists and work out the best fit for you. Our experts will guide you on the best colours for your tones, the best shape for you body and the best budget for your wallet!  With their trained style eye and a collection of the latest fashion at their fingertips, they will arm you with all the tools to confidently select next season’s wardrobe. Personal Styling Sessions are available Monday to Sunday during normal shopping hours all year round. Prices start from $230 for two hours.</div>
+												<div class="acc-headline">Group sessions</div>
+												<div class="acc-body-text">
+													<p>It’s time for a girl’s shopping trip! Grab a friend or two and come along to a <span class="body-italics">Group Styling Session</span> with one of our expert stylists. Our Group Styling Sessions are a fun way to shop with friends and designed for groups of two to four people. In just two to three hours our expert stylist will assess your body shape, style, colouring and budget, then take you to the right stores to try on the right pieces. After a session you and your friends will be armed with all the skills to build a perfect wardrobe. Group Styling Sessions are available Monday to Sunday during normal shopping hours all year round.</p>
+													<p>Prices start from $320 for two hours for two people.</p>
+												</div>
+
+												<a href="" class="nav-button" target="_blank">BOOK YOUR SESSION NOW</a>
+											</div>
+										</td>
+									</tr>
+									<!--end row 3-->
+									<!--start row 4-->
+									<tr id="package4" class="accordion-toggle" data-toggle="collapse" data-parent="#services-container" data-target=".packageDetails4">
+										<td>Mobility and wheelchair hire</td>
+										<td><i class="indicator glyphicon glyphicon-menu-down pull-right"></i>
+										</td>
+									</tr>
+									<!--end show lable-->
+									<tr>
+										<td colspan="2" class="hiddenRow">
+											<div class="accordion-body collapse packageDetails4" id="accordion4">
+												<div class="acc-body-text">For those customers requiring assistance around our centre we have wheelchairs and mobility scooters available for hire. Just visit the <span class="body-italics">Customer Services Desk</span> on Level 2 for more information. There is no charge for hireage but you will require photo ID and terms and conditions apply.</div>
+											</div>
+										</td>
+									</tr>
+									<!--end row 4-->
+									<!--start row 5-->
+									<tr id="package5" class="accordion-toggle" data-toggle="collapse" data-parent="#services-container" data-target=".packageDetails5">
+										<td>Shopping with children</td>
+										<td><i class="indicator glyphicon glyphicon-menu-down pull-right"></i>
+										</td>
+									</tr>
+									<!--end show lable-->
+									<tr>
+										<td colspan="2" class="hiddenRow">
+											<div class="accordion-body collapse packageDetails5" id="accordion5">
+												<div class="acc-headline">Parents room</div>
+												<div class="acc-body-text">Relax in private in our Parents Room, specially designed to make shopping with little ones easier. We have two parent spaces, each equipped with a microwave, bottle warmer, change tables and kids toilets, all in a safe and comfortable environment. Anyone looking after small children is welcome. You will find a Parents Room on Level 2 next to Whitcoulls and one on Level 1 near Rodney Wayne.
+													<p>For more information please see the Customer Service Desk or call us on 07 853 0507.</p>
+												</div>
+												<div class="acc-headline">Kids play area</div>
+												<div class="acc-body-text">
+													<p>Kids love to play and we have the perfect play area for our visitors under 5. If they need some down time from the shops head along to our play area in the foodcourt on Level 2 outside EVENT Cinemas. You must supervise your children as Chartwell Shopping Centre does not provide supervision. To keep our play area safe and clean we ask that kids please remove their shoes and have no food or drink in this area. Chartwell takes no responsibility for any injury from the use of the play area. Any use of this area by children outside of age limit is deemed unauthorised use.</p>
+												</div>
+												<div class="acc-headline">Stroller and Kiddie Kruzer hire</div>
+												<div class="acc-body-text">
+													<p>If you forgot the stroller or someone’s legs are getting too tired, we have some wheels available to hire. You can pick up a stroller from our Customer Service Desk. There is no charge, however photo ID is required and terms and conditions apply.</p>
+													<p>Kiddie Kruzzers are also available for hire from the Customer Service Desk. We have single and double seating models, and trust us, the Kiddie Kruzzer is the coolest way to get around! An hourly charge applies for Kruzzers&mdash;$5 per single, $8 per double&mdash;and photo ID is required.</p>
+												</div>
+											</div>
+										</td>
+									</tr>
+									<!--end row 5-->
+									<!--start row 6-->
+									<tr id="package6" class="accordion-toggle" data-toggle="collapse" data-parent="#services-container" data-target=".packageDetails6">
+										<td>Mummy Mornings</td>
+										<td><i class="indicator glyphicon glyphicon-menu-down pull-right"></i>
+										</td>
+									</tr>
+									<!--end show lable-->
+									<tr>
+										<td colspan="2" class="hiddenRow">
+											<div class="accordion-body collapse packageDetails6" id="accordion6">
+												<div class="acc-body-text">
+													<p>Have a date with your little one and attend one of our Mummy Mornings. It’s the perfect place to catch up with other Mums, Dads and caregivers and there will be some fun activities for the littlies. Our Mummy Mornings run February through to November and take place on the third Tuesday of the month from 10am to 12noon.</p>
+													<p>Lock a Mummy Morning into your calendar for 2016:</p>
+													<ul>
+														<li>21 June 2016</li>
+														<li>19 July 2016</li>
+														<li>16 August 2016</li>
+														<li>20 September 2016</li>
+														<li>18 October 2016</li>
+														<li>15 November 2016</li>
+													</ul>
+												</div>
+											</div>
+										</td>
+									</tr>
+									<!--end row 6-->
+									<!--start row 7-->
+									<tr id="package7" class="accordion-toggle" data-toggle="collapse" data-parent="#services-container" data-target=".packageDetails7">
+										<td>Justice of the Peace</td>
+										<td><i class="indicator glyphicon glyphicon-menu-down pull-right"></i>
+										</td>
+									</tr>
+									<!--end show lable-->
+									<tr>
+										<td colspan="2" class="hiddenRow">
+											<div class="accordion-body collapse packageDetails7" id="accordion7">
+												<div class="acc-body-text">Chartwell has a Justice of the Peace in centre each week, offering a range of services including
+													<ul>
+														<li>witnessing your signature on a document</li>
+														<li>certifying copies of documents for you, including cell phone texts and computer displayed results</li>
+														<li>completing an affidavit for you</li>
+														<li>completing a declaration for you</li>
+													</ul>
+												</div>
+
+											</div>
+										</td>
+									</tr>
+									<!--end row 7-->
+
+
+									<!--start row 8-->
+									<tr id="package8" class="accordion-toggle" data-toggle="collapse" data-parent="#services-container" data-target=".packageDetails8">
+										<td>Retail Leasing</td>
+										<td><i class="indicator glyphicon glyphicon-menu-down pull-right"></i>
+										</td>
+									</tr>
+									<!--end show lable-->
+									<tr>
+										<td colspan="2" class="hiddenRow">
+											<div class="accordion-body collapse packageDetails8" id="accordion8">
+												<div class="acc-body-text">
+													<p>Chartwell Shopping Centre is a modern retail hub for an area that is growing in both size and affluence. The Chartwell Shopping Centre houses almost 100 retail stores within the 27,000m² of lettable area. Retailers such as Wallace Cotton, Majestic Tea Bar, The Food Crew and iconic NZ brands such as Glassons, Max, Barkers, Meccano and a flagship Farmers store are some of the quality retailers represented at Chartwell Shopping Centre.</p>
+												</div>
+												<span class="body-italics">Peter Tuck</span> National Manager&mdash;Retail Leasing DDI: +64 9 951 6011 Ph: +64 9 912 2690 Mob: +64 27 267 7457 Fax: +64 9 912 2693 Email:
+												<a href="mailto:peter.tuck@strideproperty.co.nz">peter.tuck@strideproperty.co.nz</a>
+												<p>
+													<span class="body-italics">Ronan McGinley</span> Leasing Manager DDI: +64 9 913 1156 Phone: +64 9 912 2690 Mobile: +64 22 344 1845 Fax: +64 9 912 2693 Email:
+													<a href="mailto:ronan.mcginley@strideproperty.co.nz">ronan.mcginley@strideproperty.co.nz</a></p>
+											</div>
+
+										</td>
+									</tr>
+									<!--end row 8-->
+
+
+									<!--start row 9-->
+									<tr id="package9" class="accordion-toggle" data-toggle="collapse" data-parent="#services-container" data-target=".packageDetails9">
+										<td>Promotional Leasing</td>
+										<td><i class="indicator glyphicon glyphicon-menu-down pull-right"></i>
+										</td>
+									</tr>
+									<!--end show lable-->
+									<tr>
+										<td colspan="2" class="hiddenRow">
+											<div class="accordion-body collapse packageDetails9" id="accordion9">
+												<div class="acc-headline">Experiential marketing</div>
+												<div class="acc-body-text">Within our centre we have dedicated experiential locations that create an ideal hub to reach a wide target audience. Set yourself up in one of our experiential marketing hubs and you can be certain your product demonstrations, sampling activities and car promotions will achieve maximum exposure.</div>
+												<div class="acc-headline">Pop-up retail leasing</div>
+												<div class="acc-body-text">
+													<p>Chartwell offers tailored pop-up leasing—the perfect solution for seasonal and event specific sales as well as ensuring brand exposure.</p>
+													<p>Whether you are looking for a temporary pop up store for a week or more, we can provide you with the ideal solution to enhance your sales in Chartwell Shopping Centre’s environment of retail excellence.</p>
+												</div>
+												<div class="acc-headline">Filming opportunities</div>
+												<div class="acc-body-text">Chartwell Shopping Centre offers the ultimate location for filming, movies, television shows and commercials. Talk to our customer services team if you would like to use our centre as a film location. </div>
+												<div class="acc-headline">Further opportunities</div>
+												<div class="acc-body-text">A range of branding opportunities are available in prominent locations within Chartwell Shopping Centre to elevate brand awareness and support sales.</div>
+												<div class="acc-headline">Key facts</div>
+												<div class="acc-body-text">
+													<ul>
+														<li>100 specialty stores</li>
+														<li>27,000m<sup>2</sup> retail space</li>
+														<li>2 anchor stores at each end of the mall (Farmers and Countdown)</li>
+														<li>Over 1,000 car parking spaces</li>
+														<li>Brand partnership experiences</li>
+														<li>400 seated foodcourt</li>
+													</ul>
+												</div>
+												<div class="acc-headline">For booking enquiries please contact</div>
+												<div class="acc-body-copy"><span class="body-italic">Michaela Aspden</span> Brand Alliance Executive DDI: +64 9 980 0107 Phone: +64 9 912 2690 Mobile: +64 21 937 800 Fax: +64 9 912 2693 Email: <a href="mailto:michaela.aspden@strideproperty.co.nz">michaela.aspden@strideproperty.co.nz</a></div>
+											</div>
+										</td>
+									</tr>
+									<!--end row 9-->
+
+								</tbody>
+							</table>
+						</div>
+						<!-- end accordion -->
+					</div>
+				</div>
+
+
+				<!--		end container-fluid-->
+			</div>
+		</div>
+	</div>
+	<!--	end main-content-->
+
+	<div class="strip-home"></div>
+
+
+	<div class="container-fluid">
+		<div class="row">
+
+			<div class="col-sm-12">
+				<div class="footer-flex-desktop">
+					<div class="footer-social-icons">
+						<img src="images/shared/instagram_icon.png" width="36" border="0" alt="chartwell-footer">
+						<img src="images/shared/facebook_icon.png" width="36" border="0" alt="chartwell-footer">
+					</div>
+
+					<div class="footer-nav">
+						<ul>
+							<li><a class="one-pixel-link" href="./contact.html">CONTACT US</a></li>
+							<li><a class="one-pixel-link" href="http://www.strideproperty.co.nz/" target="_blank">STRIDE PROPERTY LTD</a></li>
+							<li><a class="one-pixel-link" href="./privacy.html">PRIVACY POLICY</a></li>
+							<li><a class="one-pixel-link" href="./terms.html">TERMS + CONDITIONS</a></li>
+						</ul>
+					</div>
+
+					<div class="footer-logo">
+						<a href="./index.html" target="_self">
+							<img src="images/shared/chartwell_logo_bw.png" width="140" height="24" border="0" alt="chartwell-footer">
+						</a>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+</body>
+
+</html>
