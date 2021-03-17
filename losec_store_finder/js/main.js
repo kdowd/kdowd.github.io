@@ -15,15 +15,16 @@ function loadStoresJSON() {
     .then((response) => response.json())
     .then((response) => (window.locationsJSON = response))
     .then(() => {
+    console.log("get the gmaps");
       var t = setTimeout(
         function () {
-          if (navigator.onLine && islocal()) {
+           console.log("get the gmaps 2");
             loadScript(
               `//maps.googleapis.com/maps/api/js?key=${
                 key + libs
               }&callback=initMap`
             );
-          }
+          
         }.bind(this),
         500
       );
