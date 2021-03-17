@@ -1,4 +1,5 @@
-const key = "AIzaSyD5E8tp8tzJmpcuMWJm6QalwOhmRwyVUBY";
+// const key = "AIzaSyD5E8tp8tzJmpcuMWJm6QalwOhmRwyVUBY";
+const key = "AIzaSyAlsTeUYvBwAvNTOfZwvgMd_cTB-cKL9-E";
 const libs = "&libraries=places";
 
 window.addEventListener(
