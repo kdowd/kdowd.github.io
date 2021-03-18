@@ -1,0 +1,31 @@
+.map-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  margin: 1rem auto;
+  width: 100%;
+  min-height: 400px;
+  max-height: 800px;
+
+  > div {
+    flex-basis: 48%;
+  }
+
+  > div:last-of-type {
+    flex: 1;
+  }
+}
+
+.gm-style-iw-d {
+  > div:first-of-type {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    > *:nth-child(1n) {
+      color: darkgray;
+      line-height: 1.25rem;
+    }
+  }
+}
