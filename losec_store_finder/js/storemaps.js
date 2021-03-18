@@ -10,7 +10,7 @@ class StoreMaps {
       tilt: 0,
       center: this.latlng,
       navigationControl: false,
-      mapTypeControl: false,
+      mapTypeControl: true,
       scaleControl: true,
       streetViewControl: false,
       scrollwheel: false,
@@ -21,8 +21,12 @@ class StoreMaps {
     };
     document.addEventListener("onLocationFound", this.updateLocation);
     document.addEventListener("onCenterStore", this.centerStore);
+    document.addEventListener("onCurrentLocation", this.updateToUserLocation);
   }
 
+  updateToUserLocation = (e) => {
+    this.goToLatLon({ lat: e.detail.geo.lat, lng: e.detail.geo.lng });
+  };
   updateLocation = (e) => {
     this.goToLatLon(e.detail.results[0].geometry.location);
   };
@@ -81,5 +85,43 @@ class StoreMaps {
         marker.info.open(this.map, marker);
       });
     }
+  }
+}
+
+class Style {
+  mapStyle() {
+    return [
+      {
+        stylers: [
+          {
+            saturation: -100,
+          },
+          {
+            saturation: -100,
+          },
+        ],
+      },
+      {
+        featureType: "road",
+        elementType: "geometry",
+        stylers: [
+          {
+            lightness: 50,
+          },
+          {
+            visibility: "simplified",
+          },
+        ],
+      },
+      {
+        featureType: "road",
+        elementType: "labels",
+        stylers: [
+          {
+            visibility: "off",
+          },
+        ],
+      },
+    ];
   }
 }

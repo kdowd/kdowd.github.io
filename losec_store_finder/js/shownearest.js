@@ -1,15 +1,28 @@
 //https://cloud.google.com/blog/products/maps-platform/how-calculate-distances-map-maps-javascript-api
 
 class FindNearestStores {
-  constructor(stores) {
+  constructor() {
     console.log("FindNearestStores class is go !!");
     this.data = null;
     document.addEventListener("onLocationFound", this.lookForClosestStores);
-    this.stores = stores;
+    document.addEventListener("onCurrentLocation", this.lookForClosestStores);
+    this.maxStores = 3;
+  }
+
+  get maxStores() {
+    return this._maxStores;
+  }
+
+  set maxStores(value) {
+    this._maxStores = Math.max(0, value);
   }
 
   lookForClosestStores = (e) => {
-    let needle = e.detail.results[0].geometry.location;
+    // TODO : split to 2 methods - cleaner
+    let needle = !!e.detail.results
+      ? e.detail.results[0].geometry.location
+      : e.detail.geo;
+
     this.data.forEach((e, i) => {
       let haystack = { lat: e.latitude, lng: e.longitude };
       let dist = this.haversine_distance(needle, haystack);
@@ -23,7 +36,7 @@ class FindNearestStores {
   };
 
   showUserResults() {
-    let subset = this.data.slice(0, this.stores);
+    let subset = this.data.slice(0, this.maxStores);
     new Store().removeAllChildNodes();
     Store.counter = 0;
     subset.forEach((e, i) => {
@@ -99,14 +112,22 @@ class Store {
   };
 
   updateStores = (obj) => {
-    this.clonedElement.removeAttribute("style");
+    let mycounter = ++Store.counter;
+    // this.clonedElement.removeAttribute("style");
+    this.clonedElement.setAttribute(
+      "style",
+      `animation-name:fadeInDown; animation-duration: 100ms; animation-delay:${
+        mycounter * 100
+      }ms`
+    );
     this.lat = obj.latitude;
     this.lng = obj.longitude;
-    this.clonedElement.querySelector("span").innerText = ++Store.counter;
+    this.clonedElement.querySelector("span").innerText = mycounter;
     this.clonedElement.querySelector(".storeName").innerText = obj.name;
     this.clonedElement.querySelector(".storeAddress").innerText = obj.address;
     this.clonedElement.querySelector(".distance").innerText =
       obj.distance.toFixed(2) + " km";
+
     this.targetElement.appendChild(this.clonedElement);
   };
 }
