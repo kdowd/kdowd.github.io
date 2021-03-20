@@ -69,13 +69,13 @@ class StoreMaps {
         position: myLatlng,
 
         map: this.map,
-        title: locations[i]["name"],
+        title: locations[i]["Pharmacy Name"],
         draggable: false,
       });
 
-      var infoContent = "<strong>" + locations[i]["name"] + "</strong>";
-      infoContent += "<strong>" + locations[i]["address"] + "</strong>";
-      infoContent += "<strong>" + locations[i]["city"] + "</strong>";
+      var infoContent = "<strong>" + locations[i]["Pharmacy Name"] + "</strong>";
+      infoContent += "<strong>" + locations[i]["Addr1"] + "</strong>";
+      infoContent += "<strong>" + locations[i]["Suburb"] + "</strong>";
 
       marker.info = new google.maps.InfoWindow({
         content: infoContent,
