@@ -12,7 +12,7 @@ class StoreMaps {
       navigationControl: false,
       mapTypeControl: true,
       scaleControl: true,
-      streetViewControl: false,
+      streetViewControl: true,
       scrollwheel: false,
       disableDoubleClickZoom: true,
       disableDefaultUI: false,
