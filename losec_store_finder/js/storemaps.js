@@ -76,7 +76,6 @@ class StoreMaps {
       var infoContent = "<strong>" + locations[i]["name"] + "</strong>";
       infoContent += "<strong>" + locations[i]["address"] + "</strong>";
       infoContent += "<strong>" + locations[i]["city"] + "</strong>";
-       infoContent += "<strong>" + locations[i]["group"] + "</strong>";
 
       marker.info = new google.maps.InfoWindow({
         content: infoContent,
