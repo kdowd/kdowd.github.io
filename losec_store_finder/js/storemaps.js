@@ -73,9 +73,10 @@ class StoreMaps {
         draggable: false,
       });
 
-      var infoContent = "<strong>" + locations[i]["Pharmacy Name"] + "</strong>";
-      infoContent += "<strong>" + locations[i]["Addr1"] + "</strong>";
-      infoContent += "<strong>" + locations[i]["Suburb"] + "</strong>";
+      var infoContent = "<strong>" + locations[i]["name"] + "</strong>";
+      infoContent += "<strong>" + locations[i]["address"] + "</strong>";
+      infoContent += "<strong>" + locations[i]["city"] + "</strong>";
+       infoContent += "<strong>" + locations[i]["group"] + "</strong>";
 
       marker.info = new google.maps.InfoWindow({
         content: infoContent,
