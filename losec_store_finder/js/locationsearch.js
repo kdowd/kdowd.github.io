@@ -21,7 +21,6 @@ class LocationSearch {
       })
       .then((processed_data) => {
         if (processed_data.status === "ZERO_RESULTS") {
-          console.log("update user no results");
           let event = new CustomEvent("onNoLocationFound", {
             bubbles: true,
             detail: processed_data,

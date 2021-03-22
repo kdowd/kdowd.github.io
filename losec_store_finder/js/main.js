@@ -48,7 +48,9 @@ function initMap() {
   let mapClass = new StoreMaps(document.querySelector(".map-container "));
   mapClass.showMap();
   mapClass.showMarkers(window.locationsJSON);
+
   new LocationRequest().makeRequest();
+  new NoLocationResult();
 
   let nearestStores = new FindNearestStores();
   nearestStores.maxStores = 9;

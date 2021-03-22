@@ -249,6 +249,10 @@ header .search {
   }
 }
 
+p.no-location-result {
+  color: purple;
+}
+
 .map-wrap {
   display: -webkit-box;
   display: -ms-flexbox;
