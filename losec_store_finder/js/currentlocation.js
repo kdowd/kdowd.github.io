@@ -1,9 +1,22 @@
 class LocationRequest {
+  constructor() {
+    this.delay = 4000;
+    this.timeout = setTimeout(this.onTimedOut, this.delay);
+  }
+
+  onTimedOut = (e) => {
+    console.log("onTimedOut");
+  };
+
+  onKillTimeout = () => {
+    clearTimeout(this.timeout);
+  };
   makeRequest = (e) => {
     navigator.geolocation.getCurrentPosition(this.onSuccess, this.onFail);
   };
 
   onSuccess = (e) => {
+    this.onKillTimeout();
     let event = new CustomEvent("onCurrentLocation", {
       bubbles: true,
       detail: { geo: { lat: e.coords.latitude, lng: e.coords.longitude } },
@@ -25,6 +38,14 @@ class LocationRequest {
       );
     }
   };
+
+  get delay() {
+    return this._delay;
+  }
+
+  set delay(value) {
+    this._delay = value;
+  }
 }
 
 // GeolocationPosition {

@@ -5,11 +5,11 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: start;
-  -ms-flex-align: start;
-  align-items: flex-start;
+      -ms-flex-align: start;
+          align-items: flex-start;
 }
 
 .form-parent .form-wrap {
@@ -62,6 +62,13 @@
 .form-parent form button svg {
   width: 90%;
   height: auto;
+}
+
+.form-parent form {
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 10;
 }
 
 body {
@@ -250,7 +257,21 @@ header .search {
 }
 
 p.no-location-result {
-  color: purple;
+  color: #03a9f4;
+  font-weight: 500;
+  z-index: 5;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+}
+
+p.show-result {
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+}
+
+p.hide-result {
+  -webkit-transform: translateY(-200%);
+          transform: translateY(-200%);
 }
 
 .map-wrap {

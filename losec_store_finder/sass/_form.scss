@@ -1,14 +1,8 @@
 .form-parent {
   background-color: #2c388a;
   color: snow;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
-  -webkit-box-align: start;
-  -ms-flex-align: start;
   align-items: flex-start;
 }
 
@@ -62,4 +56,13 @@
 .form-parent form button svg {
   width: 90%;
   height: auto;
+}
+
+.form-parent {
+  form {
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 10;
+  }
 }

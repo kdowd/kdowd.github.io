@@ -50,7 +50,9 @@ function initMap() {
   mapClass.showMarkers(window.locationsJSON);
 
   new LocationRequest().makeRequest();
-  new NoLocationResult();
+
+  let noresult = new NoLocationResult();
+  noresult.resultElement = document.querySelector(".no-location-result");
 
   let nearestStores = new FindNearestStores();
   nearestStores.maxStores = 9;
@@ -61,8 +63,12 @@ function initMap() {
 function onLocationSearch(e) {
   e.preventDefault();
   var address = e.target.elements[0].value;
+  address = address.trim();
 
-  new LocationSearch(address).geocodeAddress();
+  if (address.length > 2) {
+    new LocationSearch(address).geocodeAddress();
+  }
+
   // geocodeAddress(address);
   //https://developers.google.com/maps/documentation/javascript/reference
 }
