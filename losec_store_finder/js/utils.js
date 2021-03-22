@@ -1,8 +1,3 @@
-// const geocoder = new google.maps.Geocoder();
-// document.getElementById("submit").addEventListener("click", () => {
-//   geocodeAddress(geocoder, map);
-// });
-
 function islocal() {
   // true if local server
   return location.host.indexOf("127.0.0.1") !== -1;
