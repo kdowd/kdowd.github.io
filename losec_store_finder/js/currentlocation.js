@@ -38,14 +38,6 @@ class LocationRequest {
       );
     }
   };
-
-  get delay() {
-    return this._delay;
-  }
-
-  set delay(value) {
-    this._delay = value;
-  }
 }
 
 // GeolocationPosition {

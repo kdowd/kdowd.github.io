@@ -1,5 +1,5 @@
 function islocal() {
-  // true if local server
+  // true if local server, vscode
   return location.host.indexOf("127.0.0.1") !== -1;
 }
 

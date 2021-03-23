@@ -8,7 +8,7 @@ class FindNearestStores {
     document.addEventListener("onCurrentLocation", this.lookForClosestStores);
     this.maxStores = 3;
   }
-
+  //test
   get maxStores() {
     return this._maxStores;
   }
