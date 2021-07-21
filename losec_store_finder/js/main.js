@@ -49,7 +49,7 @@ function initMap() {
   noresult.resultElement = document.querySelector(".no-location-result");
 
   let nearestStores = new FindNearestStores();
-  nearestStores.maxStores = 9;
+  nearestStores.maxStores = 7;
   nearestStores.data = window.locationsJSON;
 }
 

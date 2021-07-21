@@ -1,5 +1,5 @@
 p.no-location-result {
-  color: #03a9f4;
+  color: #2c398d;
   font-weight: 500;
   z-index: 5;
   transition-duration: 1s;
@@ -7,7 +7,9 @@ p.no-location-result {
 
 p.show-result {
   transform: translateY(0);
+  display: block;
 }
 p.hide-result {
-  transform: translateY(-200%);
+  transform: translateY(-2000%);
+  display: none;
 }
