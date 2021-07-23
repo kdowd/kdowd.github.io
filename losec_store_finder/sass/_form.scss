@@ -1,29 +1,47 @@
 .form-parent {
   background-color: #f7defb;
+ 
   color: snow;
   display: flex;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
+  padding-left: 1rem;
+  padding-bottom: 2rem;
 
   .form-wrap {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: baseline;
+    align-items: flex-start;
     width: 100%;
     h3 {
       font-weight: 100;
       color: black;
       padding-right: 1rem;
     }
+
+    @media screen and (min-width: $tablet) {
+      flex-direction: row;
+      padding-top: 2rem;
+      align-items: baseline;
+
+    }
   }
+
+
 
   form {
     position: relative;
     top: 0;
     left: 0;
     z-index: 10;
+    width: 95%;
+
+    @media screen and (min-width: $tablet) {
+     width: 45%;
+     align-items: center;
+    }
+    
   }
 }
 

@@ -1,20 +1,35 @@
+
+
 .map-wrap {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: stretch;
   margin: 1rem auto;
   width: 100%;
-  min-height: 400px;
-  max-height: 800px;
+ 
 
   > div {
     flex-basis: 48%;
   }
 
   > div:last-of-type {
-    flex: 1;
+    min-height: 800px;
+
+    @media screen and (min-width: $tablet) {
+      flex: 1;
+      min-height: unset;
+      
+    }
   }
+
+  @media screen and (min-width: $tablet) {
+    flex-direction: row;
+  }
+
 }
+
+
 
 .gm-style-iw-d {
   > div:first-of-type {
