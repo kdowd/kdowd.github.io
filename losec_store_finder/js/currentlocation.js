@@ -6,7 +6,7 @@ class LocationRequest {
 
   onTimedOut = (e) => {
     console.log("onTimedOut, show user message.");
-    this.showNoLocationMessage();
+    // this.showNoLocationMessage();
   };
 
   
