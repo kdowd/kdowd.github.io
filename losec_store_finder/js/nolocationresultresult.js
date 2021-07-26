@@ -5,6 +5,7 @@ class NoLocationResult {
     this.resultElement;
   }
 
+
   reset = () => {
     console.log("reset updateUser");
     this.resultElement.classList.replace("show-result", "hide-result");

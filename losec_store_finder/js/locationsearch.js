@@ -11,6 +11,7 @@ class LocationSearch {
       .then((processed_data) => {
         console.log(processed_data);
         if (processed_data.status === "OK") {
+       
           let event = new CustomEvent("onLocationFound", {
             bubbles: true,
             detail: processed_data,

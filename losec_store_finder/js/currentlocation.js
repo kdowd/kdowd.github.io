@@ -1,12 +1,22 @@
 class LocationRequest {
   constructor() {
-    this.delay = 4000;
+    this.delay = 5000;
     this.timeout = setTimeout(this.onTimedOut, this.delay);
   }
 
   onTimedOut = (e) => {
-    console.log("onTimedOut");
+    console.log("onTimedOut, show user message.");
+    this.showNoLocationMessage();
   };
+
+  
+ showNoLocationMessage = () => {
+  let noLocationMessage = document.querySelector(".location-blocked");
+  if (!!noLocationMessage){
+    noLocationMessage.style.display = "flex";
+  }
+}
+
 
   onKillTimeout = () => {
     clearTimeout(this.timeout);
@@ -22,11 +32,14 @@ class LocationRequest {
       detail: { geo: { lat: e.coords.latitude, lng: e.coords.longitude } },
     });
     document.dispatchEvent(event);
+ 
     // this.onStore(event.detail);
   };
   onFail = (e) => {
     //message: "User denied Geolocation"
     console.log(e.message);
+    this.showNoLocationMessage();
+    
   };
 
   onStore = (obj) => {

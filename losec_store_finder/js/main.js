@@ -45,6 +45,14 @@ function killLoader(){
   }
 }
 
+function killNoLocationMessage(){
+  let noLocationMessage = document.querySelector(".location-blocked");
+  if (!!noLocationMessage){
+    noLocationMessage.style.display = "none";
+  }
+}
+
+
 function initMap() {
   killLoader();
   let mapClass = new StoreMaps(document.querySelector(".map-container "));
@@ -70,6 +78,8 @@ function onLocationSearch(e) {
   if (address.length > 2) {
     new LocationSearch(address).geocodeAddress();
   }
+
+  killNoLocationMessage();
 
   // geocodeAddress(address);
   //https://developers.google.com/maps/documentation/javascript/reference
