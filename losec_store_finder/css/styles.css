@@ -1,5 +1,4 @@
 .form-parent {
-  background-color: #f7defb;
   color: snow;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -10,8 +9,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding-left: 1rem;
-  padding-bottom: 2rem;
+  padding: 2rem;
 }
 
 .form-parent .form-wrap {
@@ -25,9 +23,9 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   width: 100%;
 }
 
@@ -43,7 +41,6 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    padding-top: 2rem;
     -webkit-box-align: baseline;
         -ms-flex-align: baseline;
             align-items: baseline;
@@ -119,7 +116,8 @@ body {
 }
 
 .body-wrapper {
-  background-color: snow;
+  background-color: #f7defb;
+  padding: 0.75rem;
   max-width: 1600px;
   min-height: 100vh;
   width: 100%;

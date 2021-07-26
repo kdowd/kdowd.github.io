@@ -38,7 +38,15 @@ function loadStoresJSON() {
     });
 }
 
+function killLoader(){
+  let loader = document.querySelector(".svg-loader");
+  if (!!loader){
+    loader.style.display = "none";
+  }
+}
+
 function initMap() {
+  killLoader();
   let mapClass = new StoreMaps(document.querySelector(".map-container "));
   mapClass.showMap();
   mapClass.showMarkers(window.locationsJSON);

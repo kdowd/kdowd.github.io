@@ -1,18 +1,18 @@
 .form-parent {
-  background-color: #f7defb;
  
   color: snow;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-left: 1rem;
-  padding-bottom: 2rem;
+  // padding-left: 1rem;
+  // padding-bottom: 2rem;
+  padding: 2rem;
 
   .form-wrap {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     width: 100%;
     h3 {
       font-weight: 100;
@@ -22,7 +22,7 @@
 
     @media screen and (min-width: $tablet) {
       flex-direction: row;
-      padding-top: 2rem;
+     
       align-items: baseline;
 
     }
