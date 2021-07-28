@@ -15,11 +15,11 @@
 
   > div:last-of-type {
     min-height: 800px;
- margin-right: 1.5rem;
+   
     @media screen and (min-width: $tablet) {
       flex: 1;
       min-height: unset;
-     
+      margin-right: 1.5rem;
       
     }
   }
