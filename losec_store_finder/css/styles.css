@@ -109,6 +109,10 @@
 }
 
 body {
+  overflow: hidden;
+}
+
+body {
   background-color: snow;
   margin: 0;
   padding: 0;
