@@ -6,7 +6,7 @@
   justify-content: center;
   align-items: stretch;
   margin: 1rem auto;
-  width: 100%;
+  // width: calc(100% - 24px);
  
 
   > div {
@@ -15,10 +15,11 @@
 
   > div:last-of-type {
     min-height: 800px;
-
+ margin-right: 1.5rem;
     @media screen and (min-width: $tablet) {
       flex: 1;
       min-height: unset;
+     
       
     }
   }
