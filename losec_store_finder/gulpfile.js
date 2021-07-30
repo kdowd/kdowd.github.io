@@ -20,6 +20,7 @@ gulp.task("concatjs", function concatFunc() {
       "js/locationsearch.js",
       "js/shownearest.js",
       "js/currentlocation.js",
+      "js/sendtoparent.js",
       "js/main.js",
     ])
     .pipe(concat("bundle.js"))
