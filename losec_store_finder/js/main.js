@@ -65,7 +65,7 @@ function initMap() {
   noresult.resultElement = document.querySelector(".no-location-result");
 
   let nearestStores = new FindNearestStores();
-  nearestStores.maxStores = 7;
+  nearestStores.maxStores = 5; 
   nearestStores.data = window.locationsJSON;
 }
 

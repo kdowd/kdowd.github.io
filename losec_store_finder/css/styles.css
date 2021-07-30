@@ -333,7 +333,8 @@ p.hide-result {
   -webkit-box-align: stretch;
       -ms-flex-align: stretch;
           align-items: stretch;
-  margin: 1rem auto;
+  margin: 0 auto;
+  padding-bottom: 0.5rem;
 }
 
 .map-wrap > div {
@@ -351,7 +352,6 @@ p.hide-result {
         -ms-flex: 1;
             flex: 1;
     min-height: unset;
-    margin-right: 1.5rem;
   }
 }
 
@@ -361,6 +361,7 @@ p.hide-result {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
+    padding-right: 0.5rem;
   }
 }
 
