@@ -15,6 +15,7 @@ function updateParent() {
   window.parent.postMessage(JSON.stringify(o), "*");
   window.parent.postMessage(JSON.stringify(o), "https://www.losecextra.co.nz/");
   window.parent.postMessage(JSON.stringify(o), "https://www.losecextra.co.nz/where-buy");
+  console.log("iframe wxh = ", o);
 
   // }
 }
