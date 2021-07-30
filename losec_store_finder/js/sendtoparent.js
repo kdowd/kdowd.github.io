@@ -12,14 +12,11 @@ function updateParent() {
   let o = { width: bcr.width, height: bcr.height };
 
   // if (window.parent !== window.top) {
-      window.parent.postMessage(JSON.stringify(o));
-      window.parent.postMessage(JSON.stringify(o), "https://www.losecextra.co.nz/");
-      window.parent.postMessage(JSON.stringify(o), "https://bigunit.co.nz/");
-      window.parent.postMessage(JSON.stringify(o), "*");
-      console.log(" iframe = ", JSON.stringify(o));
-  // }
+  window.parent.postMessage(JSON.stringify(o), "*");
+  window.parent.postMessage(JSON.stringify(o), "https://www.losecextra.co.nz/");
+  window.parent.postMessage(JSON.stringify(o), "https://www.losecextra.co.nz/where-buy");
 
-  
+  // }
 }
 
 const debouncer = debounce(() => updateParent());
