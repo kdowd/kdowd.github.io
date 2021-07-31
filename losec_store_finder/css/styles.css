@@ -243,7 +243,7 @@ header .search {
   display: inline-flex;
   background-color: #940e7b;
   color: snow;
-  padding: 2rem;
+  padding: 1rem;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -255,6 +255,10 @@ header .search {
   -ms-flex-item-align: stretch;
       align-self: stretch;
   pointer-events: none;
+}
+
+@media screen and (min-width: 768px) {
+  .row.cloned span:first-of-type { padding: 2rem;}
 }
 
 .row.cloned > div {
