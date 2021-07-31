@@ -259,10 +259,11 @@ header .search {
 
 @media screen and (min-width: 768px) {
   .row.cloned span:first-of-type { padding: 2rem;}
+  .row.cloned > div { padding: 1rem; }
 }
 
 .row.cloned > div {
-  padding: 1rem;
+  padding: 0.75rem;
 }
 
 .row.cloned .storeName {
