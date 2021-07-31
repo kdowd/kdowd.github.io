@@ -103,6 +103,7 @@
 
 .form-parent form button svg {
   width: 90%;
+  min-width: 30px;
   height: auto;
   -webkit-filter: invert(1);
           filter: invert(1);
