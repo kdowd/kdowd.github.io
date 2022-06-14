@@ -1,0 +1,56 @@
+@use '../variables' as vars;
+
+body {
+	background-color: vars.$background-col;
+}
+
+html,
+body {
+}
+
+.app-wrapper {
+	background-color: lighten(vars.$background-col, 10);
+	display: grid;
+	grid-template-rows: auto 1fr auto;
+	grid-template-columns: 100%;
+	min-height: 100vh;
+	margin: auto min(4vw, 6rem);
+	border: 1px solid black;
+	border-top-left-radius: vars.$elements-radius-max;
+	border-bottom-right-radius: vars.$elements-radius-max;
+}
+
+.app-wrapper > header {
+	display: flex;
+	justify-content: space-between;
+	.logo {
+		display: inline-flex;
+		background-color: transparent;
+		padding: 1rem 4rem;
+		border: 1px solid black;
+		border-top-left-radius: vars.$elements-radius-max;
+		border-bottom-right-radius: vars.$elements-radius-max;
+		margin: 1rem;
+
+		img:first-of-type {
+			width: 3rem;
+			height: auto;
+			display: inline-block;
+		}
+	}
+
+	.menu {
+		display: inline-flex;
+		align-items: center;
+		background-color: black;
+		color: snow;
+		margin: 1rem;
+		padding: 1rem 4rem;
+	}
+}
+
+.app-wrapper main {
+}
+
+.app-wrapper footer {
+}
