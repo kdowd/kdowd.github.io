@@ -2,5 +2,14 @@ $body-font: 'Noto Sans', sans-serif;
 $headings-font: 'Noto Serif', serif;
 
 $elements-radius-max: 6rem;
-
 $background-col: dodgerblue;
+
+:root {
+	--mint-one: rgb(205, 255, 205);
+	--mint-two: rgb(223, 254, 225);
+	--mint-three: rgb(235, 255, 245);
+	--mint-four: rgb(221, 249, 236);
+	--mint-five: rgb(187, 243, 218);
+	--elements-radius-large: 6rem;
+	--grid-total: 12;
+}

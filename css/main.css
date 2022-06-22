@@ -1,3 +1,7 @@
+:root {
+	--color-primary: #ffffff;
+}
+
 body {
 	font-family: 'Nunito', sans-serif;
 	font-weight: normal;
