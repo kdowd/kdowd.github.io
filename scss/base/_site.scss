@@ -1,20 +1,5 @@
 @use '../variables' as vars;
 
-body {
-	background-color: var(--color-primary);
-	font-family: 'Montserrat', sans-serif;
-	font-weight: normal;
-	background-image: url('../../assets/blob-scene-haikei.svg');
-	background-size: cover;
-	background-position: center;
-	background-blend-mode: exclusion;
-	background-color: #d9cbcb;
-	background-attachment: fixed;
-	color: black;
-	min-height: 100vh;
-	font-family: 'Poppins', sans-serif;
-}
-
 .app-wrapper {
 	background-color: lighten(vars.$background-col, 10);
 	display: grid;
@@ -22,7 +7,7 @@ body {
 	grid-template-columns: 100%;
 	min-height: 100vh;
 	margin: auto min(4vw, 6rem);
-	// border: 1px solid black;
+	border: 1px solid var(--border-color-default);
 	border-top-left-radius: var(--elements-radius-large);
 	border-bottom-right-radius: var(--elements-radius-large);
 }

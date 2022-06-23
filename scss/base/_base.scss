@@ -1,0 +1,15 @@
+@use '../variables' as vars;
+
+body {
+	background-color: var(--color-primary);
+
+	font-weight: normal;
+	background-image: url('../../assets/blob-scene-haikei.svg');
+	background-size: cover;
+	background-position: center;
+	background-blend-mode: exclusion;
+	background-color: #d9cbcb;
+	background-attachment: fixed;
+	color: black;
+	min-height: 100vh;
+}

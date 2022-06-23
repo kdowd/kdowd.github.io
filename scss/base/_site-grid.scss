@@ -1,16 +1,11 @@
 @use '../variables' as vars;
 
 .app-wrapper {
-	background-image: url('../../assets/blob-scene-haikei.svg');
-	background-size: cover;
-	background-position: center;
-	background-blend-mode: lighten;
 	background-color: rgb(54, 69, 79);
 	background-attachment: fixed;
 	main {
 		margin: 2rem auto;
 	}
-	border: 1px solid snow;
 }
 
 .content-block {
@@ -21,6 +16,9 @@
 }
 
 .content-block > div {
+	position: relative;
+	top: 0;
+	left: 0;
 }
 .content-block > div > img {
 	max-width: 100%;
@@ -28,7 +26,7 @@
 	display: block;
 	object-fit: cover;
 	aspect-ratio: 16/9;
-	object-position: center;
+	object-position: center; // overflow: hidden;
 	border-radius: 0.25rem;
 }
 
@@ -42,20 +40,21 @@
 	grid-column: 1 / 6;
 }
 .content-block > :nth-child(4) {
-	grid-column: 6 / 13;
+	grid-column: 6 /9;
 }
 .content-block > :nth-child(5) {
 	grid-column: 1 / 9;
 }
 .content-block > :nth-child(6) {
 	grid-column: 9 / 13;
+	grid-row: 2/4;
 }
 .content-block > :first-child {
-	// border-top-left-radius: var(--elements-radius-large);
-	overflow: hidden;
+	border-top-left-radius: var(--elements-radius-large);
+	// overflow: hidden;
 }
 
 .content-block > :last-child {
 	border-bottom-right-radius: var(--elements-radius-large);
-	overflow: hidden;
+	// overflow: hidden;
 }
