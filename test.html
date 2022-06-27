@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<style>
+			html,
+			body {
+				background-color: grey;
+				margin: 1% 0;
+				padding: 0;
+				display: grid;
+				place-content: center;
+			}
+
+			.card {
+				border: none;
+				background-color: transparent;
+				min-width: 280px;
+				width: fit-content;
+				min-height: 360px;
+				position: relative;
+				transform: rotateZ(8deg);
+				filter: drop-shadow(4px 16px 6px black);
+			}
+			.tab {
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+				transition: all 900ms;
+				transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+				border: 1px solid black;
+				border-radius: 12px;
+			}
+
+			.tab-one {
+				background-color: cornflowerblue;
+			}
+
+			.tab-two {
+				background-color: pink;
+			}
+			.tab-three {
+				background-color: plum;
+				transform: rotateZ(-16deg);
+				position: relative;
+				transform-origin: right;
+				left: -261px;
+				top: 49px;
+			}
+
+			.live-tab {
+				transform: translateY(16%);
+				z-index: 10;
+				/* transition-delay: 0.33s; */
+			}
+
+			.set-background {
+				background-image: url('./assets/naturesway.co.nz3.webp');
+				background-size: cover;
+				background-position: center;
+			}
+			.background-tab {
+				transform: translateY(0);
+				z-index: 0;
+				/* transition-delay: 0.1s; */
+			}
+
+			p {
+				margin: 0;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="card">
+			<div class="tab tab-one background-tab"><p class="dead">DETAIL:</p></div>
+			<div class="tab tab-two live-tab set-background">
+				<p class="live">PROJECT:</p>
+			</div>
+		</div>
+		<div class="card">
+			<div class="tab tab-one background-tab"><p class="dead">DETAIL:</p></div>
+			<div class="tab tab-two live-tab set-background">
+				<p class="live">PROJECT:</p>
+			</div>
+		</div>
+		<div class="card">
+			<div class="tab tab-one background-tab"><p class="dead">DETAIL:</p></div>
+			<div class="tab tab-two live-tab set-background">
+				<p class="live">PROJECT:</p>
+			</div>
+		</div>
+		<script>
+			let card = document.querySelector('.card');
+
+			card.addEventListener('click', (e) => {
+				console.log(e.target, ' ', e.currentTarget);
+				// console.log('---- ', e.target.matches('.background-tab'));
+
+				if (e.target.matches('.background-tab')) {
+					let temp = e.currentTarget.querySelector('.live-tab');
+					e.target.classList.replace('background-tab', 'live-tab');
+					temp.classList.replace('live-tab', 'background-tab');
+				}
+
+				// dead.classList.add('live-tab');
+			});
+		</script>
+	</body>
+</html>

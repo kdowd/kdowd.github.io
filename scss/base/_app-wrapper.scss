@@ -1,15 +1,17 @@
 @use '../variables' as vars;
 
 .app-wrapper {
-	background-color: lighten(vars.$background-col, 10);
+	background-color: rgb(54, 69, 79);
+	background-attachment: fixed;
+}
+
+.app-wrapper {
 	display: grid;
 	grid-template-rows: auto 1fr auto;
 	grid-template-columns: 100%;
 	min-height: 100vh;
-	margin: auto min(4vw, 6rem);
-	border: 1px solid var(--border-color-default);
-	border-top-left-radius: var(--elements-radius-large);
-	border-bottom-right-radius: var(--elements-radius-large);
+
+	border: none;
 }
 
 .app-wrapper > header {
@@ -43,7 +45,4 @@
 		padding: 1rem 4rem;
 		border-bottom-left-radius: var(--elements-radius-large);
 	}
-}
-
-.app-wrapper footer {
 }

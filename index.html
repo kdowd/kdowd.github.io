@@ -12,15 +12,15 @@
 			href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;400;600&display=swap"
 			rel="stylesheet"
 		/>
+		<!-- <link href="https://fonts.bunny.net/css?family=bitter:400,700,400i" rel="stylesheet" /> -->
 
 		<link href="./css/styles.min.css" rel="stylesheet" />
 	</head>
 	<body>
 		<div class="app-wrapper">
 			<header>
-				<div class="logo">
-					<img src="./site-assets/logo.svg" alt="logo" />
-					<span>BigUnit</span>
+				<div>
+					<p class="hero-text">Kevin John Dowd - WordPress developer based on the North Shore in Auckland, NZ</p>
 				</div>
 
 				<div class="menu">
@@ -32,32 +32,44 @@
 			</header>
 			<main>
 				<div class="content-block">
-					<div>
-						<div class="info-block">
-							<h4>Nature's Way</h4>
-							<p>Custom WordPress build based on Photoshop document.</p>
-							<p>Block/Gutenberg based pages with use of custom Gutenberg Blocks and Advanced Custom Fields.</p>
+					<div class="card">
+						<nav><span>DETAILS</span></nav>
+						<div class="tab tab-one background-tab">
+							<img src="./assets/naturesway.co.nz3.webp" alt="" />
 						</div>
-						<img src="./assets/naturesway.co.nz3.webp" alt="" />
+						<div class="tab tab-two live-tab set-background">
+							<img src="./assets/efamol.co.nz_products_pure-evening-primrose-oil_.webp" alt="" />
+						</div>
 					</div>
+
+					<div class="card">
+						<nav><span>DETAILS</span></nav>
+						<div class="tab tab-one background-tab">
+							<img src="./assets/naturesway.co.nz3.webp" alt="" />
+						</div>
+						<div class="tab tab-two live-tab set-background">
+							<img src="https://place-hold.it/1080x720" alt="" />
+						</div>
+					</div>
+
 					<div><img src="https://place-hold.it/1080x720" alt="" /></div>
-					<div><img src="https://place-hold.it/1080x720" alt="" /></div>
+					<div class="card">
+						<nav><span>DETAILS</span></nav>
+						<div class="tab tab-one background-tab">
+							<img src="./assets/naturesway.co.nz3.webp" alt="" />
+						</div>
+						<div class="tab tab-two live-tab set-background">
+							<img src="https://place-hold.it/1080x720" alt="" />
+						</div>
+					</div>
 
 					<div><img src="https://place-hold.it/1080x720" alt="" /></div>
 					<div>
-						<div class="info-block">
-							<h4>Nature's Way</h4>
-							<p>Custom WordPress build based on Photoshop document.</p>
-							<p>Block/Gutenberg based pages with use of custom Gutenberg Blocks and Advanced Custom Fields.</p>
-						</div>
+						<div class="info-block"></div>
 						<img src="./assets/efamol.co.nz_products_pure-evening-primrose-oil_.webp" alt="" />
 					</div>
 					<div>
-						<div class="info-block">
-							<h4>Nature's Way</h4>
-							<p>Custom WordPress build based on Photoshop document.</p>
-							<p>Block/Gutenberg based pages with use of custom Gutenberg Blocks and Advanced Custom Fields.</p>
-						</div>
+						<div class="info-block"></div>
 						<img src="./assets/viagra.co.nz_.webp" alt="" />
 					</div>
 				</div>
@@ -66,6 +78,24 @@
 				<p>vvxcvx</p>
 			</footer>
 		</div>
+		<script>
+			let cardsCollection = document.querySelectorAll('.card');
+
+			cardsCollection.forEach((item, index) => {
+				item.addEventListener('click', (e) => {
+					console.log(e.target, ' ', e.currentTarget);
+					// console.log('---- ', e.target.matches('.background-tab'));
+
+					if (e.target.matches('.background-tab')) {
+						let temp = e.currentTarget.querySelector('.live-tab');
+						e.target.classList.replace('background-tab', 'live-tab');
+						temp.classList.replace('live-tab', 'background-tab');
+					}
+
+					// dead.classList.add('live-tab');
+				});
+			});
+		</script>
 
 		<script async src="https://www.googletagmanager.com/gtag/js?id=G-M5ZLSM77D8"></script>
 		<script>
