@@ -1,0 +1,21 @@
+.menu {
+	font-size: 0.8rem;
+	display: inline-flex;
+	gap: 1rem;
+	align-items: center;
+	background-color: black;
+	color: snow;
+	border-top: hidden;
+	border-right: hidden;
+	padding: 0.666rem 4rem;
+	border-bottom-left-radius: var(--elements-radius-large);
+
+	a:not(:last-of-type) {
+		border-right: 1px solid #6c6c6c;
+		padding: 0.66rem 1rem;
+	}
+
+	a:hover {
+		color: var(--hover-colour);
+	}
+}

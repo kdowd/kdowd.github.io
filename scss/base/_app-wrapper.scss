@@ -3,20 +3,35 @@
 .app-wrapper {
 	background-color: rgb(54, 69, 79);
 	background-attachment: fixed;
-}
-
-.app-wrapper {
+	border-top-left-radius: var(--elements-radius-large);
+	border-bottom-right-radius: var(--elements-radius-large);
 	display: grid;
 	grid-template-rows: auto 1fr auto;
-	grid-template-columns: 100%;
-	min-height: 100vh;
 
-	border: none;
+	width: min(90%, 960px);
+	min-height: 100vh;
+	margin: 30px auto;
 }
 
-.xxapp-wrapper > header {
+.app-wrapper > main {
+	.content-block {
+		display: grid;
+		width: max(80%, 800px);
+		margin: 0 auto;
+		gap: 1rem;
+		row-gap: 4rem;
+		-moz-column-gap: 4rem;
+		column-gap: 4rem;
+		grid-template-columns: repeat(var(--grid-total), 1fr);
+		padding: 1rem;
+	}
+}
+
+.app-wrapper > header {
 	display: flex;
 	justify-content: space-between;
+	margin-bottom: 1rem;
+
 	.logo {
 		display: inline-flex;
 		background-color: transparent;
@@ -33,16 +48,5 @@
 			height: auto;
 			display: inline-block;
 		}
-	}
-
-	.menu {
-		display: inline-flex;
-		align-items: center;
-		background-color: black;
-		color: snow;
-		border-top: hidden;
-		border-right: hidden;
-		padding: 1rem 4rem;
-		border-bottom-left-radius: var(--elements-radius-large);
 	}
 }
