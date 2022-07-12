@@ -38,6 +38,11 @@ span.pagespeed a {
 span.pagespeed a:hover {
 	color: var(--hover-colour);
 }
+.svg-icon {
+	filter: invert(1);
+	width: 20px;
+	vertical-align: bottom;
+}
 
 ::selection {
 	background-color: crimson;

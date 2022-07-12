@@ -12,6 +12,15 @@ footer {
 	border-bottom-right-radius: var(--elements-radius-small);
 	// filter: grayscale(1);
 
+	.details {
+		display: flex;
+		flex-direction: column;
+		gap: 0.33rem;
+		> div {
+			display: flex;
+			gap: 0.66rem;
+		}
+	}
 	img {
 		filter: invert(1);
 		width: 2rem;
