@@ -8,11 +8,16 @@
 	background-color: snow;
 	border-top-left-radius: var(--elements-radius-small);
 	border-bottom-right-radius: var(--elements-radius-small);
+	filter: drop-shadow(2px 4px 6px var(--site-charcoal));
 	img {
 		max-width: 100%;
 
 		display: block;
 		border-bottom-right-radius: var(--elements-radius-small);
+	}
+
+	img.tweak-top-left-radius {
+		border-top-left-radius: 1.6rem;
 	}
 
 	.info {
@@ -27,7 +32,8 @@
 		.terms {
 			margin-top: 0.75rem;
 			font-variant: all-small-caps;
-			font-weight: 100;
+			font-weight: 400;
+			color: darkgray;
 			span:not(:last-child) {
 				margin-right: 0.5rem;
 				padding-right: 0.5rem;
@@ -86,4 +92,13 @@
 }
 .content-block > .card:nth-of-type(4) {
 	grid-column: 6 / -1;
+}
+.content-block > .card:nth-of-type(5) {
+	grid-column: 1 / 7;
+}
+.content-block > .card:nth-of-type(6) {
+	grid-column: 7 / -1;
+}
+.content-block > .card:nth-of-type(7) {
+	grid-column: 4 / 10;
 }

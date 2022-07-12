@@ -4,13 +4,14 @@
 	background-color: rgb(54, 69, 79);
 	background-attachment: fixed;
 	border-top-left-radius: var(--elements-radius-large);
-	border-bottom-right-radius: var(--elements-radius-large);
+	border-bottom-right-radius: var(--elements-radius-small);
 	display: grid;
 	grid-template-rows: auto 1fr auto;
 
 	width: min(90%, 960px);
 	min-height: 100vh;
 	margin: 30px auto;
+	// overflow: hidden;
 }
 
 .app-wrapper > main {
