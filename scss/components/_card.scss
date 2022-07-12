@@ -8,6 +8,8 @@
 	justify-content: space-between;
 	overflow: hidden;
 	background-color: snow;
+	// fix for stray pixels around overlapping champfers
+	background-image: linear-gradient(360deg, black 20px, snow 10px);
 	border-top-left-radius: var(--elements-radius-small);
 	border-bottom-right-radius: var(--elements-radius-small);
 	filter: drop-shadow(2px 4px 6px var(--site-charcoal));
