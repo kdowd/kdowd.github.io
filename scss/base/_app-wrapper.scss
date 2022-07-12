@@ -27,7 +27,8 @@
 		column-gap: 4rem;
 		grid-template-columns: repeat(var(--grid-total), 1fr);
 		padding: 1rem 0;
-		@media (min-width: 768px) {
+
+		@media (min-width: vars.$medium-breakpoint) {
 			width: max(80%, 800px);
 			display: grid;
 		}

@@ -1,3 +1,5 @@
+@use '../variables' as vars;
+
 .hero {
 	background-color: #36454f;
 
@@ -20,7 +22,7 @@
 		margin: 0.5rem 0;
 	}
 
-	@media (min-width: 768px) {
+	@media (min-width: vars.$medium-breakpoint) {
 		width: min(90%, 960px);
 		padding: 4rem 4rem;
 		p {

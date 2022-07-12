@@ -1,3 +1,5 @@
+@use '../variables' as vars;
+
 .menu {
 	font-size: 0.8rem;
 	display: inline-flex;
@@ -19,7 +21,7 @@
 		color: var(--hover-colour);
 	}
 
-	@media (min-width: 768px) {
+	@media (min-width: vars.$medium-breakpoint) {
 		padding: 0.666rem 4rem;
 	}
 }
