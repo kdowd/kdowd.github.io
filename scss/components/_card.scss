@@ -1,6 +1,8 @@
 @use '../variables' as vars;
 
 .card {
+	width: min(100%, 55em);
+	margin: auto;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
