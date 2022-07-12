@@ -38,3 +38,8 @@ span.pagespeed a {
 span.pagespeed a:hover {
 	color: var(--hover-colour);
 }
+
+::selection {
+	background-color: crimson;
+	color: snow;
+}
