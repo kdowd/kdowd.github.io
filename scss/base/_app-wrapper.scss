@@ -8,23 +8,29 @@
 	display: grid;
 	grid-template-rows: auto 1fr auto;
 
-	width: min(90%, 960px);
+	width: min(96%, 960px);
 	min-height: 100vh;
 	margin: 30px auto;
+
 	// overflow: hidden;
 }
 
 .app-wrapper > main {
 	.content-block {
-		display: grid;
-		width: max(80%, 800px);
+		display: flex;
+		flex-direction: column;
+		width: 96%;
 		margin: 0 auto;
 		gap: 1rem;
 		row-gap: 4rem;
 		-moz-column-gap: 4rem;
 		column-gap: 4rem;
 		grid-template-columns: repeat(var(--grid-total), 1fr);
-		padding: 1rem;
+		padding: 1rem 0;
+		@media (min-width: 768px) {
+			width: max(80%, 800px);
+			display: grid;
+		}
 	}
 }
 

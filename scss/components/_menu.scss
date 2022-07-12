@@ -7,7 +7,7 @@
 	color: snow;
 	border-top: hidden;
 	border-right: hidden;
-	padding: 0.666rem 4rem;
+	padding: 0.666rem 2rem;
 	border-bottom-left-radius: var(--elements-radius-large);
 
 	a:not(:last-of-type) {
@@ -17,5 +17,9 @@
 
 	a:hover {
 		color: var(--hover-colour);
+	}
+
+	@media (min-width: 768px) {
+		padding: 0.666rem 4rem;
 	}
 }
