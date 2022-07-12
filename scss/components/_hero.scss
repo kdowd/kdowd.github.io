@@ -29,5 +29,15 @@
 			font-size: 2rem;
 			margin: 0.2rem 0;
 		}
+
+		p:first-of-type {
+			padding-top: 0.75rem;
+			border-top: 1px solid snow;
+		}
+
+		p:last-of-type {
+			padding-bottom: 0.75rem;
+			border-bottom: 1px solid snow;
+		}
 	}
 }
