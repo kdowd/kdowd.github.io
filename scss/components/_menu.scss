@@ -12,12 +12,21 @@
 	padding: 0.666rem 2rem;
 	border-bottom-left-radius: var(--elements-radius-large);
 
+	a {
+		display: inline-flex;
+		align-items: center;
+		gap: 0.33rem;
+	}
+
 	a:not(:last-of-type) {
 		border-right: 1px solid #6c6c6c;
 		padding: 0.66rem 1rem;
 	}
 
 	a:hover {
+		color: var(--hover-colour);
+	}
+	a:hover .svg-icon {
 		color: var(--hover-colour);
 	}
 
