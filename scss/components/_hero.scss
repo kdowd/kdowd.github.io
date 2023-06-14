@@ -23,7 +23,7 @@
 	}
 
 	@media (min-width: vars.$medium-breakpoint) {
-		width: min(90%, 960px);
+		width: min(90%, var(--base-site-width));
 		padding: 4rem 4rem;
 		p {
 			font-size: 2rem;

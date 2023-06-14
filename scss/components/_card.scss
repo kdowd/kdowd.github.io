@@ -105,5 +105,9 @@
 	grid-column: 7 / -1;
 }
 .content-block > .card:nth-of-type(7) {
-	grid-column: 4 / 10;
+	grid-column: 1 / 6;
+}
+
+.content-block>.card:nth-of-type(8) {
+	grid-column: 6 / -1;
 }
