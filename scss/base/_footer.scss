@@ -1,0 +1,33 @@
+footer {
+	margin-top: 3rem;
+	padding: 1rem 2rem;
+	display: flex;
+	font-size: 1.2rem;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	color: var(--site-reverse-body-text-col);
+	background-image: linear-gradient(to bottom, #444, #333);
+	border-top-left-radius: var(--elements-radius-small);
+	border-bottom-right-radius: var(--elements-radius-small);
+	// filter: grayscale(1);
+
+	.details {
+		display: flex;
+		flex-direction: column;
+		gap: 0.33rem;
+		> div {
+			display: flex;
+			gap: 0.66rem;
+		}
+	}
+	img {
+		filter: invert(1);
+		width: 2rem;
+		height: auto;
+	}
+
+	a:not(:last-of-type) {
+		margin-right: 0.5rem;
+	}
+}

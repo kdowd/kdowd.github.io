@@ -1,0 +1,50 @@
+@use '../variables' as vars;
+
+html {
+	-webkit-text-size-adjust: 100%;
+	scroll-behavior: smooth;
+}
+body {
+	background-color: var(--site-charcoal);
+
+	min-height: 100vh;
+	margin: 0 auto;
+	padding: 0;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	padding-bottom: 8rem;
+}
+
+a {
+	color: snow;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.element-push-left {
+	position: relative;
+	left: -0.5rem;
+}
+.element-push-up {
+	position: relative;
+	top: -0.25rem;
+}
+
+span.pagespeed a {
+	text-transform: lowercase;
+}
+
+span.pagespeed a:hover {
+	color: var(--hover-colour);
+}
+.svg-icon {
+	filter: invert(1);
+	width: 24px;
+	vertical-align: bottom;
+}
+
+::selection {
+	background-color: crimson;
+	color: snow;
+}

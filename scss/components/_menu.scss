@@ -1,0 +1,36 @@
+@use '../variables' as vars;
+
+.menu {
+	font-size: 0.8rem;
+	display: inline-flex;
+	gap: 1rem;
+	align-items: center;
+	background-color: black;
+	color: snow;
+	border-top: hidden;
+	border-right: hidden;
+	padding: 0.666rem 2rem;
+	border-bottom-left-radius: var(--elements-radius-large);
+
+	a {
+		display: inline-flex;
+		align-items: center;
+		gap: 0.33rem;
+	}
+
+	a:not(:last-of-type) {
+		border-right: 1px solid #6c6c6c;
+		padding: 0.66rem 1rem;
+	}
+
+	a:hover {
+		color: var(--hover-colour);
+	}
+	a:hover .svg-icon {
+		color: var(--hover-colour);
+	}
+
+	@media (min-width: vars.$medium-breakpoint) {
+		padding: 0.666rem 4rem;
+	}
+}
